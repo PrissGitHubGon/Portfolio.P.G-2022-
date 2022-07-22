@@ -1,0 +1,86 @@
+{
+    "competences": [
+
+      {
+        "title": "Javascript",
+        "imageUrl": "https://res.cloudinary.com/dl6flp50k/image/upload/v1658328046/js_xbyi3a.png"
+      },
+      {
+        "title": "Html",
+        "imageUrl": "https://res.cloudinary.com/dl6flp50k/image/upload/v1658328046/html_rtd6ca.png"
+      },
+      {
+        "title": "Css",
+        "imageUrl": "https://res.cloudinary.com/dl6flp50k/image/upload/v1658477725/css3_med6su.png"
+      },
+      {
+        "title": "Sass",
+        "imageUrl": "https://res.cloudinary.com/dl6flp50k/image/upload/v1658330115/sass_qx4cji.png"
+      }
+      ,
+      {
+        "title": "Bootstrap",
+        "imageUrl": "https://res.cloudinary.com/dl6flp50k/image/upload/v1658330115/bootstrap_kop8gd.png"
+      }
+      ,
+      {
+        "title": "Tailwind css",
+        "imageUrl": "https://res.cloudinary.com/dl6flp50k/image/upload/v1658330115/tailwind_acp2ax.png"
+      },
+      {
+        "title": "React.js",
+        "imageUrl": "https://res.cloudinary.com/dl6flp50k/image/upload/v1658410716/react_ejs9ux.png"
+      }
+      ,
+      {
+        "title": "React Native",
+        "imageUrl": "https://res.cloudinary.com/dl6flp50k/image/upload/v1658477585/reactNative_n2vq5x.png"
+      },
+      {
+        "title": "Expo",
+        "imageUrl": "https://res.cloudinary.com/dl6flp50k/image/upload/v1658330115/expo_lrmrvw.png"
+      },
+      {
+        "title": "GitHub",
+        "imageUrl": "https://res.cloudinary.com/dl6flp50k/image/upload/v1658330115/gitHub_k6gsip.png"
+      },
+      {
+        "title": "GitLab",
+        "imageUrl": "https://res.cloudinary.com/dl6flp50k/image/upload/v1658477995/gitLab_nnkc9l.png"
+      },
+      {
+        "title": "Redux",
+        "imageUrl": "https://res.cloudinary.com/dl6flp50k/image/upload/v1658411243/redux_cnahgb.png"
+      },
+      {
+        "title": "Nodejs",
+        "imageUrl": "https://res.cloudinary.com/dl6flp50k/image/upload/v1658411418/nodejs_mrn0mf.png"
+      },
+      {
+        "title": "MongoDb",
+        "imageUrl": "https://res.cloudinary.com/dl6flp50k/image/upload/v1658477081/mongoDb_cmochu.png"
+      },
+      {
+        "title": "MongoDB Atlas",
+        "imageUrl": "https://res.cloudinary.com/dl6flp50k/image/upload/v1658331239/mongoDbAtlas_ioti9a.png"
+      }
+      ,
+      {
+        "title": "Forest Admin",
+        "imageUrl": "https://res.cloudinary.com/dl6flp50k/image/upload/v1658331851/forestAdmin_ltfphm.png"
+      }
+      ,
+      
+      {
+        "title": "Heroku",
+        "imageUrl": "https://res.cloudinary.com/dl6flp50k/image/upload/v1658331766/heroku_j8l4o5.png"
+      },
+      
+      {
+        "title": "Anglais A1",
+        "imageUrl": "https://res.cloudinary.com/dl6flp50k/image/upload/v1658411586/anglais_ebrlku.png"
+      }
+    ]
+    
+  }
+  
