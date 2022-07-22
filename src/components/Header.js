@@ -28,7 +28,7 @@ function Header() {
 
           <div className={isNavOpen ? "showMenuNav" : "hideMenuNav"}>
             <div
-              className="absolute top-0 right-0 px-8 py-8"
+              className="absolute top-0 right-0 px-8 py-8 h-screen"
               onClick={() => setIsNavOpen(false)}
             >
               <svg
@@ -92,7 +92,7 @@ function Header() {
         display: block;
         position: absolute;
         width: 100%;
-        height: 120vh;
+        
         top: 0;
         left: 0;
         background: white;
