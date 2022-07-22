@@ -6,7 +6,7 @@ function Home() {
     <>
       <main className=" w-full md:w-full lg:w-full  ">
         <div className="bg-black   w-full flex flex-col md:flex-row  ">
-          <aside className="sm:ml-48 sm:w-2/4  md:w-2/3 lg:w-1/4 bg-[url('https://res.cloudinary.com/dl6flp50k/image/upload/v1658304658/294103591_2299089073562502_350884712205389612_n_m4y1rb.jpg')] bg-cover bg-center px-5 py-56  "></aside>{" "}
+          <aside className=" sm:w-2/4  md:w-2/3 lg:w-1/4 bg-[url('https://res.cloudinary.com/dl6flp50k/image/upload/v1658304658/294103591_2299089073562502_350884712205389612_n_m4y1rb.jpg')] bg-cover bg-center px-5 py-56  "></aside>{" "}
           <div className="bg-black md:w-2/3 lg:w-3/4 px-5 py-40 md:py-30">
             <h1 className="text-2xl md:text-4xl text-white ">
               <Typewriter
