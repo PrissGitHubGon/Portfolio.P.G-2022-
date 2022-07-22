@@ -1,6 +1,5 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import "./assets/style/header.css";
+
 @import "./assets/style/notFound.css";
-@import "./assets/style/lotties.css";

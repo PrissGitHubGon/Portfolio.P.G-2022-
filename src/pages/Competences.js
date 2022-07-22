@@ -3,12 +3,12 @@ import React from "react";
 import data from "../assets/data/competences.json";
 function Competences() {
   return (
-    <div className="relative flex gap-4 overflow-hidden flex-wrap lg:py-12 py-4 ml-5 lg:ml-5 ">
+    <div className="relative flex gap-4 overflow-hidden flex-wrap lg:py-12 py-4 ml-5 lg:ml-5 md:pb-80 md:mb-14">
       {data.competences.map((competence, index) => {
         return (
           <div
             key={index}
-            className=" text-center relative lg:w-52 lg:h-52 rounded-md w-24 h-24"
+            className=" text-center relative lg:w-52 lg:h-52  rounded-md w-24 h-24"
           >
             <a
               href={competence.link}
