@@ -3,7 +3,7 @@ import React from "react";
 import Typewriter from "typewriter-effect";
 function Welcome() {
   return (
-    <div className="w-screen h-screen bg-[url('https://res.cloudinary.com/dl6flp50k/image/upload/v1657103160/me-grey-1_2_q7p4mo.jpg')] bg-cover bg-center flex justify-center items-center">
+    <div className="w-screen h-screen bg-[url('https://res.cloudinary.com/dl6flp50k/image/upload/v1657103160/me-grey-1_2_q7p4mo.jpg')]  bg-cover bg-center flex justify-center items-center">
       <div className="flex flex-col justify-center items-center">
         <h1 className=" text-center text-4xl  font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 drop-shadow-lg flex">
           <Typewriter
