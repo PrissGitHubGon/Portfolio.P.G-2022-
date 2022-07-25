@@ -4,7 +4,7 @@ import CarouselSchool from "../components/Carousel-School";
 
 function Realisation() {
   return (
-    <div>
+    <div className="md:pb-64">
       <CarouselSchool />
       <CarouselProjectPerso />
     </div>

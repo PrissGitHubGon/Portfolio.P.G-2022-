@@ -8,17 +8,17 @@ function Footer() {
   };
   return (
     <footer className="text-center bg-gray-800 text-white">
-      <div className="pt-6">
+      <div className="pt-6 md:py-10">
         <div className="flex justify-center mb-4">
           <a
             href="https://www.linkedin.com/in/priscillia-gon%C3%A7alves-098285217/"
-            className="mr-9 text-white-800 text-2xl"
+            className="mr-9 text-white-800 text-2xl md:text-4xl"
           >
             <i className="fa-brands fa-linkedin-in"></i>
           </a>
           <a
             href="https://github.com/PrissGitHubGon"
-            className="text-white-800 text-2xl"
+            className="text-white-800 text-2xl md:text-4xl"
           >
             <i className="fa-brands fa-github"></i>
           </a>

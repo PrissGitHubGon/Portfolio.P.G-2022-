@@ -2,7 +2,7 @@
     "competences": [
 
       {
-        "title": "Javascript",
+        "title": "JavaScript",
         "imageUrl": "https://res.cloudinary.com/dl6flp50k/image/upload/v1658328046/js_xbyi3a.png"
       },
       {
@@ -53,7 +53,7 @@
         "imageUrl": "https://res.cloudinary.com/dl6flp50k/image/upload/v1658411243/redux_cnahgb.png"
       },
       {
-        "title": "Nodejs",
+        "title": "Node.js",
         "imageUrl": "https://res.cloudinary.com/dl6flp50k/image/upload/v1658411418/nodejs_mrn0mf.png"
       },
       {

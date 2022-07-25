@@ -4,11 +4,18 @@ import Typewriter from "typewriter-effect";
 function Home() {
   return (
     <>
-      <main className=" w-full md:w-full lg:w-full  ">
-        <div className="bg-black   w-full flex flex-col md:flex-row  ">
-          <aside className=" sm:w-2/4  md:w-2/3 lg:w-1/4 bg-[url('https://res.cloudinary.com/dl6flp50k/image/upload/v1658304658/294103591_2299089073562502_350884712205389612_n_m4y1rb.jpg')] bg-cover bg-center px-5 py-56  "></aside>{" "}
-          <div className="bg-black md:w-2/3 lg:w-3/4 px-5 py-40 md:py-30">
-            <h1 className="text-2xl md:text-4xl text-white ">
+      <main className=" w-full md:w-full lg:w-full xl:w-full ">
+        <div className="bg-black   w-full flex flex-col md:flex-row sm:pb-96 md:pb-96 ">
+          <div className=" md:w-2/4 ">
+            <img
+              src="https://res.cloudinary.com/dl6flp50k/image/upload/v1658304658/294103591_2299089073562502_350884712205389612_n_m4y1rb.jpg"
+              alt=""
+              className=""
+            />
+          </div>
+
+          <div className="bg-black md:w-2/4 pl-3 pr-3 pb-5 sm:pt-3">
+            <h1 className="text-2xl  md:text-4xl text-white ">
               <Typewriter
                 options={{
                   strings: [
@@ -22,7 +29,7 @@ function Home() {
             </h1>
             <br />
 
-            <p className="text-white">
+            <p className="text-white text-base sm:text-lg  md:text-xl ">
               Je suis anciennement diplômée d’un CAP petite enfance et d’un bep
               Vente.
               <br />

@@ -4,13 +4,13 @@ import Iframe from "react-iframe";
 
 function Contact() {
   return (
-    <div className="ml-8 pb-10 sm:ml-24 flex flex-col sm:flex-row md:flex-row lg:flex-row xl:flex-row 2xl:flex-row md:py-60 lg:py-36 2xl:py-48 lg:ml-60 xl:ml-58 2xl:pl-28">
+    <div className=" flex flex-col sm:flex-row md:flex-col lg:flex-row xl:flex-row 2xl:flex-row   md:pb-40  md:place-items-center">
       {/* /******************************** Lotties cv ****************************/}
-      <div className="sm:flex sm:flex-col lg:mr-24 xl:mr-60 xl:pl-20 sm:mr-11">
+      <div className="sm:flex sm:flex-col sm:w-2/4 place-items-center">
         <Iframe
           url="https://embed.lottiefiles.com/animation/69761"
           id="myId"
-          className="w-72 h-72 sm:w-52 sm:h-52 2xl:w-72  "
+          className="w-72 h-72 sm:w-96 sm:h-96   "
           display="initial"
           position="relative"
         />
@@ -32,11 +32,11 @@ function Contact() {
         </a>
       </div>{" "}
       {/* /******************************** Lotties Email ****************************/}
-      <div className="sm:ml-16">
+      <div className="sm:flex sm:flex-col w-2/4 place-items-center">
         <Iframe
           url="https://embed.lottiefiles.com/animation/68885"
           id="myId"
-          className="w-72 h-72 sm:w-52 sm:h-52 2xl:w-72"
+          className="w-72 h-72 sm:w-96 sm:h-96"
           display="initial"
           position="relative"
         />
