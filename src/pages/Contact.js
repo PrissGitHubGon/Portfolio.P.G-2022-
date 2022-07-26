@@ -1,22 +1,22 @@
 import React from "react";
 import pdf from "../assets/doc/CV_Priscillia Gonçalves.pdf";
-// import Iframe from "react-iframe";
-import email from "../assets/img/email.jpg";
-import cv from "../assets/img/Screenshot_1.jpg";
+import Iframe from "react-iframe";
+// import email from "../assets/img/email.jpg";
+// import cv from "../assets/img/Screenshot_1.jpg";
 
 function Contact() {
   return (
     <div className="ml-7 py-5 pb-10 flex flex-col sm:flex-row md:flex-col lg:flex-row xl:flex-row 2xl:flex-row   md:pb-64   md:place-items-center">
       {/* /******************************** Lotties cv ****************************/}
       <div className="sm:flex sm:flex-col sm:w-2/4 place-items-center">
-        {/* <Iframe
+        <Iframe
           url="https://embed.lottiefiles.com/animation/69761"
           id="myId"
           className="w-72 h-72 sm:w-96 sm:h-96   "
           display="initial"
           position="relative"
-        /> */}
-        <img src={cv} alt="" className="w-80 h-full sm:w-96   py-8" />
+        />
+        {/* <img src={cv} alt="" className="w-80 h-full sm:w-96   py-8" /> */}
         <a href={pdf} download className="">
           <button
             class="bg-blue-400 hover:bg-blue-500 text-gray-800 font-bold lg:py-2 lg:px-6 px-24 sm:px-10
@@ -35,14 +35,18 @@ function Contact() {
       </div>{" "}
       {/* /******************************** Lotties Email ****************************/}
       <div className="sm:flex sm:flex-col w-2/4 place-items-center  ">
-        {/* <Iframe
+        <Iframe
           url="https://embed.lottiefiles.com/animation/68885"
           id="myId"
           className="w-72 h-72 sm:w-96 sm:h-96 "
           display="initial"
           position="relative"
+        />
+        {/* <img
+          src={email}
+          alt=""
+          className="py-12 sm:w-4/5 md:w-3/5 md:mb-7 lg:w-full lg:mb-14"
         /> */}
-        <img src={email} alt="" className="py-12 sm:w-4/5 " />
         <div className="sm:ml-14">
           <a href="mailto:priscillia.g.pro@outlook.fr">
             {" "}
