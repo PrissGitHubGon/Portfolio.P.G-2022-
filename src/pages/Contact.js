@@ -6,7 +6,7 @@ import Iframe from "react-iframe";
 
 function Contact() {
   return (
-    <div className="ml-7 py-5 pb-10 flex flex-col sm:flex-row md:flex-col lg:flex-row xl:flex-row 2xl:flex-row   md:pb-64   md:place-items-center">
+    <div className="ml-7 py-5 pb-10 flex flex-col sm:flex-row md:flex-col lg:flex-row xl:flex-row 2xl:flex-row sm:pb-40  md:pb-64   md:place-items-center">
       {/* /******************************** Lotties cv ****************************/}
       <div className="sm:flex sm:flex-col sm:w-2/4 place-items-center">
         <Iframe

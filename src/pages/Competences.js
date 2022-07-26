@@ -3,7 +3,7 @@ import React from "react";
 import data from "../assets/data/competences.json";
 function Competences() {
   return (
-    <div className="relative flex gap-4 overflow-hidden flex-wrap lg:py-12 py-4  md:pb-32   place-content-center">
+    <div className="relative flex gap-4 overflow-hidden flex-wrap lg:py-12 py-4 sm:pb-72   md:pb-32 pb-44   place-content-center">
       {data.competences.map((competence, index) => {
         return (
           <div
