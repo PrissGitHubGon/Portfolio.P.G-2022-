@@ -32,7 +32,7 @@ function Header() {
               onClick={() => setIsNavOpen(false)}
             >
               <svg
-                className="h-8 w-8 text-fuchsia-500 hover:text-fuchsia-700  "
+                className="h-8 w-8 text-fuchsia-900  sm:text-fuchsia-500 sm:hover:text-fuchsia-700  "
                 viewBox="0 0 24 24"
                 fill="none"
                 stroke="currentColor"
@@ -45,22 +45,22 @@ function Header() {
               </svg>
             </div>
             <ul className="flex flex-col items-center justify-between min-h-[250px] text-black ">
-              <li className="border-b-2 border-fuchsia-500  hover:border-fuchsia-700 my-8 uppercase">
+              <li className="border-b-2 border-fuchsia-900 sm:border-fuchsia-600  sm:hover:border-fuchsia-800 my-8 uppercase">
                 <Link to="/home" onClick={closeSideBar}>
                   Présentation
                 </Link>
               </li>
-              <li className="border-b-2 border-fuchsia-500  hover:border-fuchsia-700 my-8 uppercase">
+              <li className="border-b-2 border-fuchsia-900 sm:border-fuchsia-600  sm:hover:border-fuchsia-800 my-8 uppercase">
                 <Link to="/my-creations" onClick={closeSideBar}>
                   Réalisations
                 </Link>
               </li>
-              <li className="border-b-2 border-fuchsia-500  hover:border-fuchsia-700 my-8 uppercase">
+              <li className="border-b-2 border-fuchsia-900 sm:border-fuchsia-600  sm:hover:border-fuchsia-800 my-8 uppercase">
                 <Link to="/competences" onClick={closeSideBar}>
                   Compétences
                 </Link>
               </li>
-              <li className="border-b-2 border-fuchsia-500  hover:border-fuchsia-700 my-8 uppercase">
+              <li className="border-b-2 border-fuchsia-900 sm:border-fuchsia-600  sm:hover:border-fuchsia-800 my-8 uppercase">
                 <Link to="/contact" onClick={closeSideBar}>
                   Me contacter
                 </Link>
