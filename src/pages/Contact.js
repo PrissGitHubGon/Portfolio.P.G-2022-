@@ -47,7 +47,7 @@ function Contact() {
           alt=""
           className="py-12 sm:w-4/5 md:w-3/5 md:mb-7 lg:w-full lg:mb-14"
         /> */}
-        <div className="sm:ml-14">
+        <div className="">
           <a href="mailto:priscillia.g.pro@outlook.fr">
             {" "}
             <button class="bg-violet-400 hover:bg-violet-500 text-gray-800 font-bold   rounded inline-flex items-center py-2 px-32 sm:px-14 ">
