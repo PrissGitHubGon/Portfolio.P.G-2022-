@@ -21,9 +21,9 @@ function Header() {
             className="HAMBURGER-ICON space-y-2"
             onClick={() => handleIsOpen((prev) => !prev)}
           >
-            <span className="block h-0.5 w-8 animate-pulse bg-gradient-to-r from-violet-500 to-fuchsia-500"></span>
-            <span className="block h-0.5 w-8 animate-pulse bg-gradient-to-r from-violet-500 to-fuchsia-500"></span>
-            <span className="block h-0.5 w-8 animate-pulse bg-gradient-to-r from-violet-500 to-fuchsia-500"></span>
+            <span className="block h-2 rounded w-11 animate-pulse bg-gradient-to-r from-violet-500 to-fuchsia-500"></span>
+            <span className="block h-2 rounded w-11 animate-pulse bg-gradient-to-r from-violet-500 to-fuchsia-500"></span>
+            <span className="block h-2 rounded w-11 animate-pulse bg-gradient-to-r from-violet-500 to-fuchsia-500"></span>
           </div>
 
           <div className={isNavOpen ? "showMenuNav" : "hideMenuNav"}>

@@ -4,7 +4,7 @@ import Iframe from "react-iframe";
 
 function Contact() {
   return (
-    <div className=" flex flex-col sm:flex-row md:flex-col lg:flex-row xl:flex-row 2xl:flex-row   md:pb-40  md:place-items-center">
+    <div className="ml-8 pb-10 flex flex-col sm:flex-row md:flex-col lg:flex-row xl:flex-row 2xl:flex-row   md:pb-64   md:place-items-center">
       {/* /******************************** Lotties cv ****************************/}
       <div className="sm:flex sm:flex-col sm:w-2/4 place-items-center">
         <Iframe
@@ -32,18 +32,18 @@ function Contact() {
         </a>
       </div>{" "}
       {/* /******************************** Lotties Email ****************************/}
-      <div className="sm:flex sm:flex-col w-2/4 place-items-center">
+      <div className="sm:flex sm:flex-col w-2/4 place-items-center  ">
         <Iframe
           url="https://embed.lottiefiles.com/animation/68885"
           id="myId"
-          className="w-72 h-72 sm:w-96 sm:h-96"
+          className="w-72 h-72 sm:w-96 sm:h-96 "
           display="initial"
           position="relative"
         />
         <div className="">
           <a href="mailto:priscillia.g.pro@outlook.fr">
             {" "}
-            <button class="bg-violet-400 hover:bg-violet-500 text-gray-800 font-bold lg:py-2  lg:px-11 xl:px-10 px-32 py-2 rounded inline-flex items-center sm:px-10 sm:ml-8 2xl:mt-5 2xl:ml-16 2xl:px-14">
+            <button class="bg-violet-400 hover:bg-violet-500 text-gray-800 font-bold   rounded inline-flex items-center py-2 px-32 sm:px-14 ">
               <i class="fa-solid fa-envelope fill-current w-4 h-4 mr-2 "></i>
               <span>Email</span>
             </button>
