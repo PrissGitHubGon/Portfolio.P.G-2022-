@@ -10,7 +10,6 @@ import Home from "./pages/Home";
 import Welcome from "./pages/Welcome";
 import Realisation from "./pages/Realisation";
 import Competences from "./pages/Competences";
-import Contact from "./pages/Contact";
 import Notfound from "./pages/Notfound";
 
 function App() {
@@ -25,7 +24,6 @@ function App() {
         <Route path="/" element={<Welcome />} />
         <Route path="/my-creations" element={<Realisation />} />
         <Route path="/competences" element={<Competences />} />
-        <Route path="/contact" element={<Contact />} />
         <Route path="/*" element={<Notfound />} />
       </Routes>
       {window.location.pathname !== "/" ? <Footer /> : null}

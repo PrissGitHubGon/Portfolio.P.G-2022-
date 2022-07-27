@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-
+import DropdownContact from "./Dropdown";
+import pdf from "../assets/doc/CV_Priscillia Gonçalves.pdf";
 function Header() {
   const [isNavOpen, setIsNavOpen] = useState(false);
   const handleIsOpen = () => {
@@ -44,7 +45,7 @@ function Header() {
                 <line x1="6" y1="6" x2="18" y2="18" />
               </svg>
             </div>
-            <ul className="flex flex-col items-center justify-between min-h-[250px] text-black ">
+            <ul className="flex flex-col items-center justify-between min-h-[300px] text-black ">
               <li className="border-b-2 border-fuchsia-900 sm:border-fuchsia-600  sm:hover:border-fuchsia-800 my-8 uppercase">
                 <Link to="/home" onClick={closeSideBar}>
                   Présentation
@@ -61,9 +62,22 @@ function Header() {
                 </Link>
               </li>
               <li className="border-b-2 border-fuchsia-900 sm:border-fuchsia-600  sm:hover:border-fuchsia-800 my-8 uppercase">
-                <Link to="/contact" onClick={closeSideBar}>
-                  Me contacter
-                </Link>
+                <a onClick={closeSideBar} href={pdf} download>
+                  Télécharger mon cv
+                </a>
+              </li>
+              <li className="border-b-2 border-fuchsia-900 sm:border-fuchsia-600  sm:hover:border-fuchsia-800 my-8 uppercase">
+                <a
+                  onClick={closeSideBar}
+                  href="mailto:priscillia.g.pro@outlook.fr"
+                >
+                  Envoyer un Email
+                </a>
+              </li>
+              <li className="border-b-2 border-fuchsia-900 sm:border-fuchsia-600  sm:hover:border-fuchsia-800 my-8 uppercase">
+                <a onClick={closeSideBar} href="tel:0672114122">
+                  Appelez moi 😃
+                </a>
               </li>
             </ul>
           </div>
@@ -80,7 +94,7 @@ function Header() {
             <Link to="/competences">Compétences</Link>
           </li>
           <li>
-            <Link to="/contact">Me contacter</Link>
+            <DropdownContact />
           </li>
         </ul>
       </nav>
