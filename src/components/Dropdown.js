@@ -1,6 +1,5 @@
 import { Fragment } from "react";
 import { Menu, Transition } from "@headlessui/react";
-import { Link } from "react-router-dom";
 import pdf from "../assets/doc/CV_Priscillia Gonçalves.pdf";
 
 function classNames(...classes) {
