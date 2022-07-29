@@ -18,9 +18,8 @@ function Welcome() {
         </h1> */}
         <div className="mt-8 px-6  flex flex-row justify-between bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 hover:from-indigo-600 hover:to-purple-700 text-xl text-white/70 font-semibold drop-shadow-lg rounded-full">
           <img src={icon} alt="" className="mr-2  h-16 w-20" />{" "}
-          <a href="/home" className="pt-5">
+          <a href="/home" className="pt-5 text-center">
             <Typewriter
-              className="mt-14"
               options={{
                 strings: ["BIENVENUE SUR MON PORTFOLIO", "GET STARTED"],
                 autoStart: true,
