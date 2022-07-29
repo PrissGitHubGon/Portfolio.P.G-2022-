@@ -15,7 +15,7 @@ function Home() {
           </div>
 
           <div className="bg-black md:w-2/4 pl-3 pr-3 pb-5 sm:pt-3 2xl:w-3/4">
-            <h1 className="text-xl sm:px-12  md:text-3xl bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 ">
+            <h1 className="text-xl sm:px-12  md:text-3xl bg-clip-text text-transparent bg-gradient-to-r from-indigo-400 via-purple-400 to-pink-400 ">
               <Typewriter
                 options={{
                   strings: [
