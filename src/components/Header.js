@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import DropdownContact from "./Dropdown";
 import pdf from "../assets/doc/CV_Priscillia Gonçalves.pdf";
+import icon from "../assets/img/icon.png";
 function Header() {
   const [isNavOpen, setIsNavOpen] = useState(false);
   const handleIsOpen = () => {
@@ -12,14 +13,14 @@ function Header() {
     setIsNavOpen(false);
   };
   return (
-    <div className="flex items-center justify-between py-6 pl-4 bg-gray-800 text-white ">
-      <a href="/" className="ml-6 pt-3 uppercase text-2xl">
-        <span>P . G</span>
+    <div className="flex items-center justify-between py-4 pl-4 bg-gray-800 text-white ">
+      <a href="/" className="ml-6  h-20 w-20">
+        <img src={icon} alt="" />
       </a>
       <nav>
         <section className="MOBILE-MENU flex lg:hidden mr-7">
           <div
-            className="HAMBURGER-ICON space-y-2"
+            className="HAMBURGER-ICON space-y-2 cursor-pointer"
             onClick={() => handleIsOpen((prev) => !prev)}
           >
             <span className="block h-2 rounded w-11 animate-pulse bg-gradient-to-r from-violet-500 to-fuchsia-500"></span>
@@ -33,7 +34,7 @@ function Header() {
               onClick={() => setIsNavOpen(false)}
             >
               <svg
-                className="h-8 w-8 text-fuchsia-900  sm:text-fuchsia-500 sm:hover:text-fuchsia-700  "
+                className="h-8 w-8 text-fuchsia-900  sm:text-fuchsia-500 sm:hover:text-fuchsia-700 cursor-pointer "
                 viewBox="0 0 24 24"
                 fill="none"
                 stroke="currentColor"

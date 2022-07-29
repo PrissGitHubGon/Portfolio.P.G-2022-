@@ -5,17 +5,17 @@ function Home() {
   return (
     <>
       <main className=" w-full md:w-full lg:w-full xl:w-full ">
-        <div className="bg-black   w-full flex flex-col md:flex-row sm:pb-96 md:pb-96 ">
-          <div className=" md:w-2/4 ">
+        <div className="bg-black   w-full flex flex-col sm:pt-10 md:flex-row md:pb-48 ">
+          <div className=" md:w-2/4 px-20 py-5">
             <img
-              src="https://res.cloudinary.com/dl6flp50k/image/upload/v1658304658/294103591_2299089073562502_350884712205389612_n_m4y1rb.jpg"
+              src="https://res.cloudinary.com/dl6flp50k/image/upload/v1659097154/me_khe6j2.png"
               alt=""
-              className=""
+              className="h-72 sm:h-auto   sm:px-10 md:px-0 md:ml-0 2xl:h-full 2xl:px-24 2xl:ml-28"
             />
           </div>
 
-          <div className="bg-black md:w-2/4 pl-3 pr-3 pb-5 sm:pt-3">
-            <h1 className="text-2xl  md:text-4xl text-white ">
+          <div className="bg-black md:w-2/4 pl-3 pr-3 pb-5 sm:pt-3 2xl:w-3/4">
+            <h1 className="text-xl sm:px-12  md:text-3xl text-slate-400 ">
               <Typewriter
                 options={{
                   strings: [
@@ -29,7 +29,7 @@ function Home() {
             </h1>
             <br />
 
-            <p className="text-white text-base sm:text-lg  md:text-xl ">
+            <p className="text-slate-400 text-base md:px-12 sm:text-lg  md:text-2xl ">
               Je suis anciennement diplômée d’un CAP petite enfance et d’un bep
               Vente.
               <br />
