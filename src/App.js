@@ -12,6 +12,7 @@ import Competences from "./pages/Competences";
 import Notfound from "./pages/Notfound";
 import ProjetsSchool from "./pages/Projets-school";
 import ProjetsPerso from "./pages/Projets-perso";
+import Marvel from "./pages/Marvel";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <Route path="/home" element={<Home />} />
         <Route path="/" element={<Welcome />} />
         <Route path="/projets-formation" element={<ProjetsSchool />} />
+        <Route path="/marvel" element={<Marvel />} />
         <Route path="/projets-personnel" element={<ProjetsPerso />} />
         <Route path="/competences" element={<Competences />} />
         <Route path="/*" element={<Notfound />} />
