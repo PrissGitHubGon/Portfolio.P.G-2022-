@@ -30,13 +30,6 @@ function Home() {
             <br />
 
             <p className="text-slate-400 text-base lg:px-12 sm:text-lg  md:text-2xl ">
-              Je suis anciennement diplômée d’un CAP petite enfance et d’un bep
-              Vente.
-              <br />
-              J'ai souhaité me réorienter dans un domaine qui me plait
-              davantage.
-              <br />
-              <br />
               Amoureuse par la réalisation d'ouvrage manuel (point de croix,
               dessins, peintures etc...), je me suis tout naturellement tournée
               vers une carrière de Développeuse web lors de mon choix de
