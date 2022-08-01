@@ -9,7 +9,7 @@
             "webSiteLink":""
           },
           {   
-          "id":2,
+          "link":"/vinted",
           "title": "Vinted",
           "imageUrl": "https://res.cloudinary.com/dl6flp50k/image/upload/v1659362238/vinted-logo_ofspha.jpg",
           "pictures":"",
@@ -18,9 +18,9 @@
           "webSiteLink":""
         },
         {   
-        "id":3,
+        "link":"/deliveroo",
         "title": "Deliveroo",
-        "imageUrl": "https://res.cloudinary.com/dl6flp50k/image/upload/v1659362237/DESIGNS-DELIVEROO-FRONT-ROLLTOP-01_rfgfc1.jpg",
+        "imageUrl": "https://res.cloudinary.com/dl6flp50k/image/upload/v1659364338/deliveroo_ucqphg.png",
         "pictures":"",
         "description": "",
         "gitHubLink":"",

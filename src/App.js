@@ -13,6 +13,8 @@ import Notfound from "./pages/Notfound";
 import ProjetsSchool from "./pages/Projets-school";
 import ProjetsPerso from "./pages/Projets-perso";
 import Marvel from "./pages/Marvel";
+import Vinted from "./pages/Vinted";
+import Deliveroo from "./pages/Deliveroo";
 
 function App() {
   return (
@@ -26,6 +28,8 @@ function App() {
         <Route path="/" element={<Welcome />} />
         <Route path="/projets-formation" element={<ProjetsSchool />} />
         <Route path="/marvel" element={<Marvel />} />
+        <Route path="/vinted" element={<Vinted />} />
+        <Route path="/deliveroo" element={<Deliveroo />} />
         <Route path="/projets-personnel" element={<ProjetsPerso />} />
         <Route path="/competences" element={<Competences />} />
         <Route path="/*" element={<Notfound />} />
