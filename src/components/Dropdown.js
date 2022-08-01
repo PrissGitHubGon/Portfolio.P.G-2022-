@@ -6,12 +6,12 @@ function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
 }
 
-export default function DropdownContact() {
+export default function DropdownContact(props) {
   return (
     <Menu as="div" className="relative inline-block text-center z-40">
       <div>
         <Menu.Button className="space-x-8 lg:flex mr-5 ">
-          Me contacter
+          {props.titleHeader}
           <i
             className="fa-solid fa-angle-down -mr-1 ml-2 pt-1"
             aria-hidden="true"
@@ -33,40 +33,26 @@ export default function DropdownContact() {
             <Menu.Item>
               {({ active }) => (
                 <a
-                  href="mailto:priscillia.g.pro@outlook.fr"
+                  href={props.link1}
                   className={classNames(
                     active ? "bg-gray-800/50 text-gray-900" : "text-gray-700",
                     "block px-4 py-2 text-sm"
                   )}
                 >
-                  Envoyer un Email
+                  {props.titleLink1}
                 </a>
               )}
             </Menu.Item>
             <Menu.Item>
               {({ active }) => (
                 <a
-                  href={pdf}
-                  download
+                  href={props.link2}
                   className={classNames(
                     active ? "bg-gray-800/50 text-gray-900" : "text-gray-700",
                     "block px-4 py-2 text-sm"
                   )}
                 >
-                  Télécharger mon cv
-                </a>
-              )}
-            </Menu.Item>
-            <Menu.Item>
-              {({ active }) => (
-                <a
-                  href="tel:0672114122"
-                  className={classNames(
-                    active ? "bg-gray-800/50 text-gray-900" : "text-gray-700",
-                    "block px-4 py-2 text-sm"
-                  )}
-                >
-                  Appelez moi 😃
+                  {props.titleLink2}
                 </a>
               )}
             </Menu.Item>

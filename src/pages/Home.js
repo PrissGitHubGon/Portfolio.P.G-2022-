@@ -4,8 +4,8 @@ import Typewriter from "typewriter-effect";
 function Home() {
   return (
     <>
-      <main className=" w-full md:w-full lg:w-full xl:w-full ">
-        <div className="bg-black   w-full flex flex-col sm:pt-10 md:flex-row md:pb-48 ">
+      <main className="  ">
+        <div className="bg-black  flex flex-col sm:pt-10 md:flex-row  ">
           <div className=" md:w-2/4 px-20 py-5">
             <img
               src="https://res.cloudinary.com/dl6flp50k/image/upload/v1659097154/me_khe6j2.png"

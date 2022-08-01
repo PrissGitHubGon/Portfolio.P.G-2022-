@@ -1,11 +1,10 @@
 import React from "react";
 import Iframe from "react-iframe";
-
-function Notfound() {
+function ProjetsPerso() {
   return (
-    <div className="w-full md:w-full lg:w-full flex justify-center  sm:pb-80">
+    <div className="w-full md:w-full lg:w-full flex justify-center sm:pb-80 ">
       <Iframe
-        url="https://embed.lottiefiles.com/animation/50479"
+        url="https://embed.lottiefiles.com/animation/93663"
         id="myId"
         className="lottie"
         display="initial"
@@ -15,4 +14,4 @@ function Notfound() {
   );
 }
 
-export default Notfound;
+export default ProjetsPerso;

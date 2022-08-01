@@ -53,8 +53,13 @@ function Header() {
                 </Link>
               </li>
               <li className="border-b-2 border-fuchsia-900 sm:border-fuchsia-600  sm:hover:border-fuchsia-800 my-8 uppercase">
-                <Link to="/my-creations" onClick={closeSideBar}>
-                  Réalisations
+                <Link to="/projets-formation" onClick={closeSideBar}>
+                  Portfolio de Formation
+                </Link>
+              </li>
+              <li className="border-b-2 border-fuchsia-900 sm:border-fuchsia-600  sm:hover:border-fuchsia-800 my-8 uppercase">
+                <Link to="/projets-personnel" onClick={closeSideBar}>
+                  Portfolio de mes projets (En cours...)
                 </Link>
               </li>
               <li className="border-b-2 border-fuchsia-900 sm:border-fuchsia-600  sm:hover:border-fuchsia-800 my-8 uppercase">
@@ -90,13 +95,33 @@ function Header() {
             <Link to="/home">Présentation</Link>
           </li>
           <li>
-            <Link to="/my-creations">Réalisations</Link>
+            {/* <Link to="/my-creations">Réalisations</Link> */}
+
+            <DropdownContact
+              titleHeader="Réalisations"
+              titleLink1="Projet de formation"
+              link1="projets-formation"
+              titleLink2="Projet personnel (En cours ...)"
+              link2="projets-personnel"
+            />
           </li>
           <li>
             <Link to="/competences">Compétences</Link>
           </li>
           <li>
-            <DropdownContact />
+            <DropdownContact
+              titleHeader="Me contacter"
+              link1="mailto:priscillia.g.pro@outlook.fr"
+              titleLink1="Envoyer un Email"
+              link2="tel:0672114122"
+              titleLink2=" Appelez moi 😃"
+            />
+          </li>
+          <li>
+            <a href={pdf} download className="flex">
+              <p className="mr-5"> Télécharger mon cv</p>{" "}
+              <i className="fa-solid fa-file-lines pt-1"></i>
+            </a>
           </li>
         </ul>
       </nav>

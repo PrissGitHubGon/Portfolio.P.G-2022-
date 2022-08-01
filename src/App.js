@@ -8,9 +8,10 @@ import Header from "./components/Header";
 import "./App.css";
 import Home from "./pages/Home";
 import Welcome from "./pages/Welcome";
-import Realisation from "./pages/Realisation";
 import Competences from "./pages/Competences";
 import Notfound from "./pages/Notfound";
+import ProjetsSchool from "./pages/Projets-school";
+import ProjetsPerso from "./pages/Projets-perso";
 
 function App() {
   return (
@@ -22,7 +23,8 @@ function App() {
       <Routes>
         <Route path="/home" element={<Home />} />
         <Route path="/" element={<Welcome />} />
-        <Route path="/my-creations" element={<Realisation />} />
+        <Route path="/projets-formation" element={<ProjetsSchool />} />
+        <Route path="/projets-personnel" element={<ProjetsPerso />} />
         <Route path="/competences" element={<Competences />} />
         <Route path="/*" element={<Notfound />} />
       </Routes>
