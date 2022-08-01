@@ -81,8 +81,7 @@ function Header() {
                 </a>
               </li>
               <li className="border-b-2 border-fuchsia-900 sm:border-fuchsia-600  sm:hover:border-fuchsia-800 my-8 uppercase">
-                <a onClick={closeSideBar} href="tel:06">
-                  {/* obfuscation react telephone pour encrypter le numero */}
+                <a onClick={closeSideBar} href="tel:0672114122">
                   Appelez moi 😃
                 </a>
               </li>

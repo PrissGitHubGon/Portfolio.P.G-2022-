@@ -5,16 +5,16 @@ function Home() {
   return (
     <>
       <main className="  ">
-        <div className="bg-black  flex flex-col sm:pt-10 md:flex-row  ">
-          <div className=" md:w-2/4 px-20 py-5">
+        <div className="bg-black  flex flex-col sm:pt-10 lg:flex-row  ">
+          <div className=" lg:w-2/4 py-5 ml-22 ">
             <img
-              src="https://res.cloudinary.com/dl6flp50k/image/upload/v1659097154/me_khe6j2.png"
+              src="https://res.cloudinary.com/dl6flp50k/image/upload/v1659365893/me_c0bgw0.png"
               alt=""
-              className="h-72 sm:h-auto   sm:px-10 md:px-0 md:ml-0 2xl:h-full 2xl:px-24 2xl:ml-28"
+              className="  "
             />
           </div>
 
-          <div className="bg-black md:w-2/4 pl-3 pr-3 pb-5 sm:pt-3 2xl:w-3/4">
+          <div className="bg-black lg:w-2/4 pl-3 pr-3 pb-5 sm:pt-3 2xl:w-3/4">
             <h1 className="text-xl sm:px-12  md:text-3xl bg-clip-text text-transparent bg-gradient-to-r from-indigo-400 via-purple-400 to-pink-400 ">
               <Typewriter
                 options={{
@@ -29,7 +29,7 @@ function Home() {
             </h1>
             <br />
 
-            <p className="text-slate-400 text-base md:px-12 sm:text-lg  md:text-2xl ">
+            <p className="text-slate-400 text-base lg:px-12 sm:text-lg  md:text-2xl ">
               Je suis anciennement diplômée d’un CAP petite enfance et d’un bep
               Vente.
               <br />
