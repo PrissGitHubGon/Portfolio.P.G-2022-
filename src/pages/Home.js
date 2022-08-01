@@ -30,11 +30,10 @@ function Home() {
             <br />
 
             <p className="text-slate-400 text-base lg:px-12 sm:text-lg  md:text-2xl ">
-              Amoureuse par la réalisation d'ouvrage manuel (point de croix,
-              dessins, peintures etc...), je me suis tout naturellement tournée
-              vers une carrière de Développeuse web lors de mon choix de
-              reconversion professionnelle, afin de pouvoir créer des projets de
-              A à Z.
+              Amoureuse de projets créatifs (Lego,crochet, dessins, peintures
+              etc...), je me suis tout naturellement tournée vers une carrière
+              de Développeuse web lors de mon choix de reconversion
+              professionnelle, afin de pouvoir créer des projets de A à Z.
               <br />
               <br />
               Développeuse web curieuse, j'aime les applications simples,
@@ -42,10 +41,9 @@ function Home() {
               <br />
               <br />
               Un sens de l'écoute et du service renforcé par 15 ans d'expérience
-              à travailler dans les métiers de la petite enfance, je suis
-              motivée par le besoin de faire toujours mieux, d'acquérir de
-              nouvelles compétences, et prends plaisir à relever de nouveaux
-              challenges.
+              dans les métiers de la petite enfance, je suis motivée par le
+              besoin de faire toujours mieux, d'acquérir de nouvelles
+              compétences, et prends plaisir à relever de nouveaux challenges.
             </p>
           </div>
         </div>
