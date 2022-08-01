@@ -1,6 +1,6 @@
 {
     "formation":[
-        {   "idUrl":"https://priscillia-goncalves-portfolio.netlify.app/marvel",
+        {   "link":"/marvel",
             "title": "Marvel",
             "imageUrl": "https://res.cloudinary.com/dl6flp50k/image/upload/v1659361989/pexels-erik-mclean-7809122_equzoz.jpg",
             "pictures":"",
