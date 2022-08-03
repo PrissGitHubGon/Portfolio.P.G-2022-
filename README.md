@@ -1,6 +1,7 @@
-# Getting Started with Create React App
+# Portfolio de Priscillia Gonçalves
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+J'ai créé ce portfolio afin de montrer mes projets et réalisations qui débutent tout juste.
+Ce portefolio et encore en construction, car je dois refondre mes projets réalisés et les adapter à tout écran.
 
 ## Available Scripts
 
