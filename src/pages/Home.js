@@ -10,7 +10,7 @@ function Home() {
             <img
               src="https://res.cloudinary.com/dl6flp50k/image/upload/v1659365893/me_c0bgw0.png"
               alt=""
-              className="  "
+              className="picture"
             />
           </div>
 
