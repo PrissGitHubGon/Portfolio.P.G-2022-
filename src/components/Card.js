@@ -38,13 +38,7 @@ function Card(props) {
               <i className="fa-brands fa-github ml-3 md:ml-1 "></i>
               <p className="text-center text-sm"> {props.gitHub} </p>
             </a>
-            <a
-              href={props.siteWebLink1}
-              className="text-red-800 text-2xl md:text-4xl"
-            >
-              <i className="fa-brands ml-6 md:ml-4 fa-internet-explorer"></i>
-              <p className="text-center text-sm">{props.siteWeb}</p>
-            </a>
+
             <a
               href={props.siteWebLink2}
               className="text-green-800 text-2xl md:text-4xl"

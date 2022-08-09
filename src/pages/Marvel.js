@@ -24,8 +24,6 @@ function Marvel() {
           text3="Intégrer la responsive / Intégrer un moteur de recherche, afin de rechercher par nom & titre / Créer un système permettant de mettre chaque fiche en favoris, en fonction des souhaits de l’utilisateur. /  Créez un système d’authentification par email et mot de passe."
           gitHub="GitHub"
           gitHubLink="https://github.com/PrissGitHubGon/marvel-frontend"
-          siteWeb="Site originel"
-          siteWebLink1="https://marvel-app-school.netlify.app/"
           siteWeb2="Site en cours"
           siteWebLink2="https://marvel-student-lereacteur.netlify.app/"
         />
