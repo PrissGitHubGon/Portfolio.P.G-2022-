@@ -2,7 +2,7 @@ import React from "react";
 
 function Card(props) {
   return (
-    <div className="flex justify-center">
+    <div className="flex justify-center ">
       <div className="flex flex-col md:flex-row md:max-w-3xl rounded-lg bg-white shadow-lg">
         <img
           className=" w-full h-96 md:h-auto object-cover md:w-56 rounded-t-lg md:rounded-none md:rounded-l-lg"
@@ -39,10 +39,7 @@ function Card(props) {
               <p className="text-center text-sm"> {props.gitHub} </p>
             </a>
 
-            <a
-              href={props.siteWebLink2}
-              className="text-green-800 text-2xl md:text-4xl"
-            >
+            <a href={props.siteWebLink2} className={props.classNameWebSite}>
               <i className="fa-brands fa-internet-explorer ml-7 md:ml-5"></i>
               <p className="text-center text-sm">{props.siteWeb2}</p>
             </a>
