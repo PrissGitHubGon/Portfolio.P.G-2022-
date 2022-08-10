@@ -5,13 +5,6 @@ function Marvel() {
   return (
     <a href="/projets-formation" className="cursor-pointer">
       <div className="w-full md:w-full lg:w-full flex justify-center sm:pb-80 md:mt-10">
-        {/* <Iframe
-          url="https://embed.lottiefiles.com/animation/93663"
-          id="myId"
-          className="lottie"
-          display="initial"
-          position="relative"
-        /> */}
         <Card
           images="https://res.cloudinary.com/dl6flp50k/image/upload/v1659953418/gabriel-2519793_960_720_jnbquh.webp"
           titleh5="Marvel"
@@ -27,6 +20,20 @@ function Marvel() {
           siteWeb2="Site en cours"
           siteWebLink2="https://marvel-student-lereacteur.netlify.app/"
         />
+      </div>
+      <div className="flex justify-between">
+        <div>
+          <i className="fa-regular fa-hand-point-left text-4xl pl-5 bg-clip-text text-transparent bg-gradient-to-r from-red-900 via-orange-800 to-amber-700  hover:text-green-900 "></i>
+          <p className="text-center pl-4 italic bg-clip-text text-transparent bg-gradient-to-r from-red-900 via-orange-800 to-amber-700 font-bold">
+            Previous
+          </p>
+        </div>
+        <div>
+          <i className="fa-regular fa-hand-point-right text-4xl pr-5 bg-clip-text text-transparent bg-gradient-to-r from-red-900 via-orange-800 to-amber-700  hover:text-green-900 "></i>
+          <p className="text-center pr-6 italic bg-clip-text text-transparent bg-gradient-to-r from-red-900 via-orange-800 to-amber-700 font-bold ">
+            Next
+          </p>
+        </div>
       </div>
     </a>
   );
