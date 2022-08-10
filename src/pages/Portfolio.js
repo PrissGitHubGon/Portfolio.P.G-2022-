@@ -13,26 +13,43 @@ function Portfolio() {
           <h5 className="text-gray-900 text-4xl font-medium mb-4 text-center">
             Portfolio
           </h5>
-          <p className="text-gray-700 text-base mb-4">En cours..</p>
-          <p className="text-gray-900 text-lg font-medium mb-2">En cours..</p>
+          <p className="text-gray-700 text-base mb-4">Ma première création…</p>
+          <p className="text-gray-700 text-base mb-4">
+            J'ai mis beaucoup de temps à m'y mettre. Un coup, je voulais un site
+            en une page, puis non... tel ou telle couleur… le logo que je
+            mettrais était un grand mystère, ECTS… 🙄
+          </p>
 
-          <ol className="text-gray-700 text-base mb-4 ">
-            <li className="list-disc"> En cours.. </li> <br />
-            <li className="list-disc">En cours..</li>
+          <p className="text-gray-700 text-base mb-4">
+            Mais, je me suis enfin lancé… Et les idées sont venues au fur et à
+            mesure. Je ne suis pas designer et ça se voit ! Néanmoins, je reste
+            fière de mon premier bébé 🤩.
+          </p>
+          <h3 className="text-gray-900 text-lg font-medium mb-2">
+            Pour réaliser mon portfolio, je me suis servi de :
+          </h3>
+          <ol className="text-gray-700 text-base mb-4 ml-4">
+            <li className="list-disc"> React.js (bien sûr 😁)</li> <br />
+            <li className="list-disc">
+              J'ai découvert et appris à utiliser Tailwind Css
+            </li>
             <br />
-            <li className="list-disc">En cours..</li>
+            <li className="list-disc">Yarn </li>
+            <br />
+            <li className="list-disc">Font Awesome </li>
+            <br />
+            <li className="list-disc">
+              L'extension chrome "Responsive Viewer", pour vérifier
+              l'adaptabilité du portfolio sur tout écran.
+            </li>
           </ol>
-          <h3 className="text-gray-900 text-lg font-medium mb-2">En cours..</h3>
-          <p className="text-gray-700 text-base pb-4 border-b-2">En cours..</p>
           <div className="flex flex-row justify-center space-x-14 pt-5">
-            <a href="/" className="text-white-800 text-2xl md:text-4xl">
+            <a
+              href="https://github.com/PrissGitHubGon/Portfolio.P.G-2022-"
+              className="text-white-800 text-2xl md:text-4xl"
+            >
               <i className="fa-brands fa-github ml-3 md:ml-1 "></i>
-              <p className="text-center text-sm">En cours..</p>
-            </a>
-
-            <a href="/" className="text-white-800 text-2xl md:text-4xl">
-              <i className="fa-brands fa-internet-explorer ml-7 md:ml-5"></i>
-              <p className="text-center text-sm">En cours..</p>
+              <p className="text-center text-sm">GitHub</p>
             </a>
           </div>
         </div>
