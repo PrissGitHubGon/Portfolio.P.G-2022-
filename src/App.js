@@ -15,6 +15,7 @@ import ProjetsPerso from "./pages/Projets-perso";
 import Marvel from "./pages/Marvel";
 import Vinted from "./pages/Vinted";
 import Deliveroo from "./pages/Deliveroo";
+import Portfolio from "./pages/Portfolio";
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
         <Route path="/vinted" element={<Vinted />} />
         <Route path="/deliveroo" element={<Deliveroo />} />
         <Route path="/projets-personnel" element={<ProjetsPerso />} />
+        <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/competences" element={<Competences />} />
         <Route path="/*" element={<Notfound />} />
       </Routes>
