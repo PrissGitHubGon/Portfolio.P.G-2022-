@@ -25,12 +25,12 @@ function Portfolio() {
           <h3 className="text-gray-900 text-lg font-medium mb-2">En cours..</h3>
           <p className="text-gray-700 text-base pb-4 border-b-2">En cours..</p>
           <div className="flex flex-row justify-center space-x-14 pt-5">
-            <a href="" className="text-white-800 text-2xl md:text-4xl">
+            <a href="/" className="text-white-800 text-2xl md:text-4xl">
               <i className="fa-brands fa-github ml-3 md:ml-1 "></i>
               <p className="text-center text-sm">En cours..</p>
             </a>
 
-            <a href="" className="text-white-800 text-2xl md:text-4xl">
+            <a href="/" className="text-white-800 text-2xl md:text-4xl">
               <i className="fa-brands fa-internet-explorer ml-7 md:ml-5"></i>
               <p className="text-center text-sm">En cours..</p>
             </a>
