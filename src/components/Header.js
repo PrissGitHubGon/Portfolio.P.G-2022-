@@ -59,7 +59,7 @@ function Header() {
               </li>
               <li className="border-b-2 border-fuchsia-900 sm:border-fuchsia-600  sm:hover:border-fuchsia-800 my-8 uppercase">
                 <Link to="/projets-personnel" onClick={closeSideBar}>
-                  Portfolio de mes projets (En cours...)
+                  Portfolio de mes projets
                 </Link>
               </li>
               <li className="border-b-2 border-fuchsia-900 sm:border-fuchsia-600  sm:hover:border-fuchsia-800 my-8 uppercase">
@@ -94,13 +94,11 @@ function Header() {
             <Link to="/home">Présentation</Link>
           </li>
           <li>
-            {/* <Link to="/my-creations">Réalisations</Link> */}
-
             <DropdownContact
               titleHeader="Réalisations"
               titleLink1="Projet de formation"
               link1="projets-formation"
-              titleLink2="Projet personnel (En cours ...)"
+              titleLink2="Projet personnel"
               link2="projets-personnel"
             />
           </li>
