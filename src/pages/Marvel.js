@@ -14,7 +14,7 @@ function Marvel() {
           li2="Sur la page principale « personnages », je devais faire apparaître la liste des personnages MARVEL (100 par page), sous forme de fiche (photo, nom, description). En cliquant sur chaque fiche, il doit être possible d’accéder à une page regroupant les comics liés au personnage."
           li3="Sur la page « comics », je devais faire apparaître la liste des comics MARVEL,par ordre alphabétique, sous forme de fiche (photo, titre, description)."
           titleh3="Modification à venir :  "
-          text3="Intégrer la responsive avec Tailwind / Intégrer un moteur de recherche, afin de rechercher par nom & titre / Créer un système permettant de mettre chaque fiche en favoris, en fonction des souhaits de l’utilisateur. /  Créez un système d’authentification par email et mot de passe."
+          text3="Intégrer la responsive avec Tailwind  /  Créez un système d’authentification par email et mot de passe fonctionnel / ❗❗ Réparer l'erreur : blocked by CORS policy: No 'Access-Control-Allow-Origin' - afin d'utiliser la bonne API ."
           gitHub="GitHub"
           gitHubLink="https://github.com/PrissGitHubGon/marvel-frontend"
           siteWeb2="Site en cours"
