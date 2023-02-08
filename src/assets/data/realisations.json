@@ -1,34 +1,32 @@
 {
-    "formation":[
-        {   "link":"/marvel",
-            "title": "Marvel",
-            "imageUrl": "https://res.cloudinary.com/dl6flp50k/image/upload/v1659361989/pexels-erik-mclean-7809122_equzoz.jpg"
-          
-          },
-          {   
-          "link":"/vinted",
-          "title": "Vinted",
-          "imageUrl": "https://res.cloudinary.com/dl6flp50k/image/upload/v1659362238/vinted-logo_ofspha.jpg"
-          
-        },
-        {   
-        "link":"/deliveroo",
-        "title": "Deliveroo",
-        "imageUrl": "https://res.cloudinary.com/dl6flp50k/image/upload/v1659364338/deliveroo_ucqphg.png"
-        
-      }
-    ],
-    "personnel":[
-        {
-            "link":"/portfolio",
-            "title": "Portfolio",
-            "imageUrl": "https://res.cloudinary.com/dl6flp50k/image/upload/v1658925757/artificial-intelligence-2167835_960_720_ej6mys.webp"
-          }
-    ],
-    "professionnel":[
-        {
-            "title": "JavaScript",
-            "imageUrl": "https://res.cloudinary.com/dl6flp50k/image/upload/v1658328046/js_xbyi3a.png"
-          }
-    ]
+  "formation": [
+    {
+      "link": "/marvel",
+      "title": "Marvel",
+      "imageUrl": "https://res.cloudinary.com/dl6flp50k/image/upload/v1659361989/pexels-erik-mclean-7809122_equzoz.jpg"
+    },
+    {
+      "link": "/vinted",
+      "title": "Vinted",
+      "imageUrl": "https://res.cloudinary.com/dl6flp50k/image/upload/v1659362238/vinted-logo_ofspha.jpg"
+    },
+    {
+      "link": "/deliveroo",
+      "title": "Deliveroo",
+      "imageUrl": "https://res.cloudinary.com/dl6flp50k/image/upload/v1659364338/deliveroo_ucqphg.png"
+    }
+  ],
+  "personnel": [
+    {
+      "link": "/portfolio",
+      "title": "Portfolio",
+      "imageUrl": "https://res.cloudinary.com/dl6flp50k/image/upload/v1658925757/artificial-intelligence-2167835_960_720_ej6mys.webp"
+    }
+  ],
+  "professionnel": [
+    {
+      "title": "wever",
+      "imageUrl": "https://res.cloudinary.com/dl6flp50k/image/upload/v1675856094/wever_ppoomf.png"
+    }
+  ]
 }
