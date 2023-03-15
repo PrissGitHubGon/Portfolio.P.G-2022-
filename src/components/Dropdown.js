@@ -5,7 +5,7 @@ function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
 }
 
-export default function DropdownContact(props) {
+const DropdownContact = (props) => {
   const {
     titleHeader,
     link1,
@@ -82,4 +82,5 @@ export default function DropdownContact(props) {
       </Transition>
     </Menu>
   );
-}
+};
+export default DropdownContact;

@@ -1,6 +1,6 @@
 import React from "react";
 
-function Portfolio() {
+const Portfolio = () => {
   return (
     <div className="flex justify-center sm:pb-80 md:mt-10">
       <div className="flex flex-col md:flex-row md:max-w-4xl rounded-lg bg-white shadow-lg">
@@ -56,6 +56,6 @@ function Portfolio() {
       </div>
     </div>
   );
-}
+};
 
 export default Portfolio;

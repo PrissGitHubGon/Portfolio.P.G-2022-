@@ -1,7 +1,7 @@
 import React from "react";
 import Iframe from "react-iframe";
 
-function Notfound() {
+const Notfound = () => {
   return (
     <div className="w-full md:w-full lg:w-full flex justify-center  sm:pb-80">
       <Iframe
@@ -13,6 +13,6 @@ function Notfound() {
       />
     </div>
   );
-}
+};
 
 export default Notfound;

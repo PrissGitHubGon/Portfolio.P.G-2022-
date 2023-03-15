@@ -1,7 +1,7 @@
 import React from "react";
 import Card from "../../../components/Card";
 
-function Deliveroo() {
+const Deliveroo = () => {
   return (
     <div href="/projets-formation" className="cursor-pointer">
       <div className="w-full md:w-full lg:w-full flex justify-center  sm:pb-80 md:mt-10 ">
@@ -30,6 +30,6 @@ function Deliveroo() {
       </div>
     </div>
   );
-}
+};
 
 export default Deliveroo;

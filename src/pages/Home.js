@@ -1,7 +1,7 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
 
-function Home() {
+const Home = () => {
   return (
     <>
       <main className="  ">
@@ -50,6 +50,6 @@ function Home() {
       </main>
     </>
   );
-}
+};
 
 export default Home;

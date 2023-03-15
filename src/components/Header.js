@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import DropdownContact from "./Dropdown";
 import pdf from "../assets/doc/CV_Priscillia Gonçalves.pdf";
 import icon from "../assets/img/icon.png";
-function Header() {
+const Header = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
   const handleIsOpen = () => {
     setIsNavOpen(!isNavOpen);
@@ -150,6 +150,6 @@ function Header() {
     `}</style>
     </div>
   );
-}
+};
 
 export default Header;

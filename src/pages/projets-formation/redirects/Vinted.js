@@ -1,6 +1,6 @@
 import React from "react";
 
-function Vinted() {
+const Vinted = () => {
   return (
     <>
       <div className="w-full md:w-full lg:w-full flex justify-center sm:pb-80 md:mt-10">
@@ -91,6 +91,6 @@ function Vinted() {
       </div>
     </>
   );
-}
+};
 
 export default Vinted;

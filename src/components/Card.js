@@ -1,6 +1,6 @@
 import React from "react";
 
-function Card(props) {
+const Card = (props) => {
   const {
     images,
     text,
@@ -66,6 +66,6 @@ function Card(props) {
       </div>
     </div>
   );
-}
+};
 
 export default Card;

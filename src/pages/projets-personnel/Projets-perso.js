@@ -1,7 +1,9 @@
 import React from "react";
+
 // Data
 import data from "../../assets/data/realisations.json";
-function ProjetsPerso() {
+
+const ProjetsPerso = () => {
   return (
     <div className="relative flex gap-4 overflow-hidden flex-wrap py-12 mb-16 pb-96 sm:mb-96 place-content-center">
       {data.personnel.map((realisation, index) => {
@@ -31,6 +33,6 @@ function ProjetsPerso() {
       })}
     </div>
   );
-}
+};
 
 export default ProjetsPerso;

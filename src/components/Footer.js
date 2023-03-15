@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-function Footer() {
+const Footer = () => {
   //   Fonction qui renvoie l'année en cours
   const getCurrentYear = () => {
     return new Date().getFullYear();
@@ -33,6 +33,6 @@ function Footer() {
       </div>
     </footer>
   );
-}
+};
 
 export default Footer;

@@ -25,7 +25,7 @@ import Portfolio from "./pages/projets-personnel/redirects/Portfolio";
 //**** projets-professionnel
 import ProjetsPro from "./pages/projets-professionnel/Projets-pro";
 
-function App() {
+const App = () => {
   return (
     <Router>
       {/* Ternaire qui permet de ne pas afficher le header et le footer sur la page d'accueil */}
@@ -49,6 +49,6 @@ function App() {
       {/* <Footer /> */}
     </Router>
   );
-}
+};
 
 export default App;

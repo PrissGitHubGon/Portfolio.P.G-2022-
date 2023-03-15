@@ -1,7 +1,9 @@
 import React from "react";
+
 // Data
 import data from "../assets/data/competences.json";
-function Competences() {
+
+const Competences = () => {
   return (
     <>
       <p className="text-2xl sm:text-left text-center py-8 sm:ml-5 font-bold">
@@ -66,6 +68,6 @@ function Competences() {
       </div>
     </>
   );
-}
+};
 
 export default Competences;

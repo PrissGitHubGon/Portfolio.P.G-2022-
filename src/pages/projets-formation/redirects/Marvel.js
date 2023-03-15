@@ -1,7 +1,7 @@
 import React from "react";
 import Card from "../../../components/Card";
-// import Iframe from "react-iframe";
-function Marvel() {
+
+const Marvel = () => {
   return (
     <>
       <div className="w-full md:w-full lg:w-full flex justify-center sm:pb-80 md:mt-10">
@@ -36,6 +36,6 @@ function Marvel() {
       </div>
     </>
   );
-}
+};
 
 export default Marvel;
