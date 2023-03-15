@@ -2,79 +2,70 @@
   "confirmer": [
     {
       "title": "JavaScript",
-      "imageUrl": "https://res.cloudinary.com/dl6flp50k/image/upload/v1658328046/js_xbyi3a.png"
+      "imageUrl": "https://res.cloudinary.com/dl6flp50k/image/upload/v1658328046/portefolio/js_xbyi3a.png"
     },
     {
       "title": "Html",
-      "imageUrl": "https://res.cloudinary.com/dl6flp50k/image/upload/v1658328046/html_rtd6ca.png"
+      "imageUrl": "https://res.cloudinary.com/dl6flp50k/image/upload/v1658328046/portefolio/html_rtd6ca.png"
     },
     {
       "title": "Css",
-      "imageUrl": "https://res.cloudinary.com/dl6flp50k/image/upload/v1658477725/css3_med6su.png"
+      "imageUrl": "https://res.cloudinary.com/dl6flp50k/image/upload/v1658477725/portefolio/css3_med6su.png"
     },
     {
       "title": "Sass",
-      "imageUrl": "https://res.cloudinary.com/dl6flp50k/image/upload/v1658330115/sass_qx4cji.png"
+      "imageUrl": "https://res.cloudinary.com/dl6flp50k/image/upload/v1658330115/portefolio/sass_qx4cji.png"
     },
     {
       "title": "Bootstrap",
-      "imageUrl": "https://res.cloudinary.com/dl6flp50k/image/upload/v1658330115/bootstrap_kop8gd.png"
+      "imageUrl": "https://res.cloudinary.com/dl6flp50k/image/upload/v1658330115/portefolio/bootstrap_kop8gd.png"
     },
     {
       "title": "Tailwind css",
-      "imageUrl": "https://res.cloudinary.com/dl6flp50k/image/upload/v1658330115/tailwind_acp2ax.png"
+      "imageUrl": "https://res.cloudinary.com/dl6flp50k/image/upload/v1658330115/portefolio/tailwind_acp2ax.png"
     },
     {
       "title": "React.js",
-      "imageUrl": "https://res.cloudinary.com/dl6flp50k/image/upload/v1658410716/react_ejs9ux.png"
+      "imageUrl": "https://res.cloudinary.com/dl6flp50k/image/upload/v1658410716/portefolio/react_ejs9ux.png"
     },
     {
       "title": "GitHub",
-      "imageUrl": "https://res.cloudinary.com/dl6flp50k/image/upload/v1658330115/gitHub_k6gsip.png"
+      "imageUrl": "https://res.cloudinary.com/dl6flp50k/image/upload/v1658330115/portefolio/gitHub_k6gsip.png"
     },
     {
       "title": "GitLab",
-      "imageUrl": "https://res.cloudinary.com/dl6flp50k/image/upload/v1658477995/gitLab_nnkc9l.png"
+      "imageUrl": "https://res.cloudinary.com/dl6flp50k/image/upload/v1658477995/portefolio/gitLab_nnkc9l.png"
     },
 
     {
       "title": "Node.js",
-      "imageUrl": "https://res.cloudinary.com/dl6flp50k/image/upload/v1658411418/nodejs_mrn0mf.png"
+      "imageUrl": "https://res.cloudinary.com/dl6flp50k/image/upload/v1658411418/portefolio/nodejs_mrn0mf.png"
     }
   ],
   "encours": [
     {
       "title": "TypeScript",
-      "imageUrl": "https://res.cloudinary.com/dl6flp50k/image/upload/v1675854820/ts_jjnatt.png"
+      "imageUrl": "https://res.cloudinary.com/dl6flp50k/image/upload/v1675854820/portefolio/ts_jjnatt.png"
     },
     {
       "title": "React Native",
-      "imageUrl": "https://res.cloudinary.com/dl6flp50k/image/upload/v1658477585/reactNative_n2vq5x.png"
+      "imageUrl": "https://res.cloudinary.com/dl6flp50k/image/upload/v1658477585/portefolio/reactNative_n2vq5x.png"
     },
     {
       "title": "Expo",
-      "imageUrl": "https://res.cloudinary.com/dl6flp50k/image/upload/v1658330115/expo_lrmrvw.png"
+      "imageUrl": "https://res.cloudinary.com/dl6flp50k/image/upload/v1658330115/portefolio/expo_lrmrvw.png"
     },
     {
       "title": "MongoDb",
-      "imageUrl": "https://res.cloudinary.com/dl6flp50k/image/upload/v1658477081/mongoDb_cmochu.png"
+      "imageUrl": "https://res.cloudinary.com/dl6flp50k/image/upload/v1658477081/portefolio/mongoDb_cmochu.png"
     },
     {
       "title": "MongoDB Atlas",
-      "imageUrl": "https://res.cloudinary.com/dl6flp50k/image/upload/v1658331239/mongoDbAtlas_ioti9a.png"
+      "imageUrl": "https://res.cloudinary.com/dl6flp50k/image/upload/v1658331239/portefolio/mongoDbAtlas_ioti9a.png"
     },
-    {
-      "title": "Forest Admin",
-      "imageUrl": "https://res.cloudinary.com/dl6flp50k/image/upload/v1658331851/forestAdmin_ltfphm.png"
-    },
-    {
-      "title": "Heroku",
-      "imageUrl": "https://res.cloudinary.com/dl6flp50k/image/upload/v1658331766/heroku_j8l4o5.png"
-    },
-
     {
       "title": "Anglais A1",
-      "imageUrl": "https://res.cloudinary.com/dl6flp50k/image/upload/v1658411586/anglais_ebrlku.png"
+      "imageUrl": "https://res.cloudinary.com/dl6flp50k/image/upload/v1658411586/portefolio/anglais_ebrlku.png"
     }
   ]
 }
