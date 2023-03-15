@@ -63,6 +63,11 @@ function Header() {
                 </Link>
               </li>
               <li className="border-b-2 border-fuchsia-900 sm:border-fuchsia-600  sm:hover:border-fuchsia-800 my-8 uppercase">
+                <Link to="/experience-professionnel" onClick={closeSideBar}>
+                  Expérience professionnel
+                </Link>
+              </li>
+              <li className="border-b-2 border-fuchsia-900 sm:border-fuchsia-600  sm:hover:border-fuchsia-800 my-8 uppercase">
                 <Link to="/competences" onClick={closeSideBar}>
                   Compétences
                 </Link>
@@ -100,6 +105,8 @@ function Header() {
               link1="projets-formation"
               titleLink2="Projet personnel"
               link2="projets-personnel"
+              titleLink3="Expérience professionnel"
+              link3="experience-professionnel"
             />
           </li>
           <li>

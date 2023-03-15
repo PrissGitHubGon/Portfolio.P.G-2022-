@@ -6,11 +6,20 @@ function classNames(...classes) {
 }
 
 export default function DropdownContact(props) {
+  const {
+    titleHeader,
+    link1,
+    titleLink1,
+    link2,
+    titleLink2,
+    link3,
+    titleLink3,
+  } = props;
   return (
     <Menu as="div" className="relative inline-block text-center z-40">
       <div>
         <Menu.Button className="space-x-8 lg:flex mr-5 ">
-          {props.titleHeader}
+          {titleHeader}
           <i
             className="fa-solid fa-angle-down -mr-1 ml-2 pt-1"
             aria-hidden="true"
@@ -32,26 +41,39 @@ export default function DropdownContact(props) {
             <Menu.Item>
               {({ active }) => (
                 <a
-                  href={props.link1}
+                  href={link1}
                   className={classNames(
                     active ? "bg-gray-800/50 text-gray-900" : "text-gray-700",
                     "block px-4 py-2 text-sm"
                   )}
                 >
-                  {props.titleLink1}
+                  {titleLink1}
                 </a>
               )}
             </Menu.Item>
             <Menu.Item>
               {({ active }) => (
                 <a
-                  href={props.link2}
+                  href={link2}
                   className={classNames(
                     active ? "bg-gray-800/50 text-gray-900" : "text-gray-700",
                     "block px-4 py-2 text-sm"
                   )}
                 >
-                  {props.titleLink2}
+                  {titleLink2}
+                </a>
+              )}
+            </Menu.Item>
+            <Menu.Item>
+              {({ active }) => (
+                <a
+                  href={link3}
+                  className={classNames(
+                    active ? "bg-gray-800/50 text-gray-900" : "text-gray-700",
+                    "block px-4 py-2 text-sm"
+                  )}
+                >
+                  {titleLink3}
                 </a>
               )}
             </Menu.Item>

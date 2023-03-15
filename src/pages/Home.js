@@ -8,7 +8,7 @@ function Home() {
         <div className="bg-black  flex flex-col py-16  lg:flex-row  ">
           <div className=" lg:w-2/4  ml-22 pb-5 ">
             <img
-              src="https://res.cloudinary.com/dl6flp50k/image/upload/v1659365893/me_c0bgw0.png"
+              src="https://res.cloudinary.com/dl6flp50k/image/upload/v1659365893/portefolio/me_c0bgw0.png"
               alt=""
               className="picture"
             />
