@@ -1,10 +1,10 @@
 import React from "react";
 // Data
-import data from "../assets/data/realisations.json";
-function ProjetsPro() {
+import data from "../../assets/data/realisations.json";
+function ProjetsPerso() {
   return (
     <div className="relative flex gap-4 overflow-hidden flex-wrap py-12 mb-16 pb-96 sm:mb-96 place-content-center">
-      {data.professionnel.map((realisation, index) => {
+      {data.personnel.map((realisation, index) => {
         return (
           <div
             key={index}
@@ -12,7 +12,7 @@ function ProjetsPro() {
           >
             <a
               href={realisation.link}
-              className=" aspect-square block bg-origin-padding bg-left-top  bg-contain bg-no-repeat z-0 "
+              className="h-full w-full aspect-square block bg-origin-padding bg-left-top bg-cover bg-no-repeat z-0 "
               style={{ backgroundImage: `url(${realisation.imageUrl || ""})` }}
             >
               <img
@@ -33,4 +33,4 @@ function ProjetsPro() {
   );
 }
 
-export default ProjetsPro;
+export default ProjetsPerso;

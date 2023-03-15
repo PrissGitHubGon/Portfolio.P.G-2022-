@@ -4,19 +4,26 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 // Component
 import Footer from "./components/Footer";
 import Header from "./components/Header";
-// Pages
+
+//**** Views
 import "./App.css";
 import Home from "./pages/Home";
 import Welcome from "./pages/Welcome";
 import Competences from "./pages/Competences";
 import Notfound from "./pages/Notfound";
-import ProjetsSchool from "./pages/Projets-school";
-import ProjetsPerso from "./pages/Projets-perso";
-import Marvel from "./pages/Marvel";
-import Vinted from "./pages/Vinted";
-import Deliveroo from "./pages/Deliveroo";
-import Portfolio from "./pages/Portfolio";
-import ProjetsPro from "./pages/Projets-pro";
+
+//**** projets-formation
+import ProjetsSchool from "./pages/projets-formation/Projets-school";
+import Marvel from "./pages/projets-formation/redirects/Marvel";
+import Vinted from "./pages/projets-formation/redirects/Vinted";
+import Deliveroo from "./pages/projets-formation/redirects/Deliveroo";
+
+//**** projets-personnel
+import ProjetsPerso from "./pages/projets-personnel/Projets-perso";
+import Portfolio from "./pages/projets-personnel/redirects/Portfolio";
+
+//**** projets-professionnel
+import ProjetsPro from "./pages/projets-professionnel/Projets-pro";
 
 function App() {
   return (

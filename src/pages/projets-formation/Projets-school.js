@@ -1,10 +1,10 @@
 import React from "react";
 // Data
-import data from "../assets/data/realisations.json";
-function ProjetsPerso() {
+import data from "../../assets/data/realisations.json";
+function ProjetsSchool() {
   return (
     <div className="relative flex gap-4 overflow-hidden flex-wrap py-12 mb-16 pb-96 sm:mb-96 place-content-center">
-      {data.personnel.map((realisation, index) => {
+      {data.formation.map((realisation, index) => {
         return (
           <div
             key={index}
@@ -33,4 +33,4 @@ function ProjetsPerso() {
   );
 }
 
-export default ProjetsPerso;
+export default ProjetsSchool;

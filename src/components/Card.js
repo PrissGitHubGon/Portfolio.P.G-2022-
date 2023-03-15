@@ -40,7 +40,7 @@ function Card(props) {
             </a>
 
             <a href={props.siteWebLink2} className={props.classNameWebSite}>
-              <i className="fa-brands fa-internet-explorer ml-7 md:ml-5"></i>
+              <i className="fa-brands fa-internet-explorer ml-3 md:ml-0"></i>
               <p className="text-center text-sm">{props.siteWeb2}</p>
             </a>
           </div>

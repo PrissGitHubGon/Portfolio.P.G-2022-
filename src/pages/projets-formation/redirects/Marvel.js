@@ -1,5 +1,5 @@
 import React from "react";
-import Card from "../components/Card";
+import Card from "../../../components/Card";
 // import Iframe from "react-iframe";
 function Marvel() {
   return (
@@ -17,7 +17,7 @@ function Marvel() {
           text3="Intégrer la responsive avec Tailwind  /  Créez un système d’authentification par email et mot de passe fonctionnel / ❗❗ Réparer l'erreur : blocked by CORS policy: No 'Access-Control-Allow-Origin' - afin d'utiliser la bonne API ."
           gitHub="GitHub"
           gitHubLink="https://github.com/PrissGitHubGon/marvel-frontend"
-          siteWeb2="Site en cours"
+          siteWeb2="Aperçu"
           siteWebLink2="https://marvel-student-lereacteur.netlify.app/"
           classNameWebSite="text-green-800 text-2xl md:text-4xl"
         />
