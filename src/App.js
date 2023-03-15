@@ -24,29 +24,34 @@ import Portfolio from "./pages/projets-personnel/redirects/Portfolio";
 
 //**** projets-professionnel
 import ProjetsPro from "./pages/projets-professionnel/Projets-pro";
+import Wever from "./pages/projets-professionnel/redirects/wever";
 
 const App = () => {
   return (
     <Router>
       {/* Ternaire qui permet de ne pas afficher le header et le footer sur la page d'accueil */}
       {window.location.pathname !== "/" ? <Header /> : null}
-      {/* <Header /> */}
 
       <Routes>
+        {/* views */}
         <Route path="/home" element={<Home />} />
         <Route path="/" element={<Welcome />} />
+        <Route path="/*" element={<Notfound />} />
+        <Route path="/competences" element={<Competences />} />
+        {/* formations */}
         <Route path="/projets-formation" element={<ProjetsSchool />} />
         <Route path="/marvel" element={<Marvel />} />
         <Route path="/vinted" element={<Vinted />} />
         <Route path="/deliveroo" element={<Deliveroo />} />
+        {/* personnel */}
         <Route path="/projets-personnel" element={<ProjetsPerso />} />
-        <Route path="/experience-professionnel" element={<ProjetsPro />} />
         <Route path="/portfolio" element={<Portfolio />} />
-        <Route path="/competences" element={<Competences />} />
-        <Route path="/*" element={<Notfound />} />
+        {/* professionnel */}
+        <Route path="/experience-professionnel" element={<ProjetsPro />} />
+        <Route path="/wever" element={<Wever />} />
       </Routes>
+
       {window.location.pathname !== "/" ? <Footer /> : null}
-      {/* <Footer /> */}
     </Router>
   );
 };

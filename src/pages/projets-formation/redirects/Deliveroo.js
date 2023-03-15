@@ -7,6 +7,7 @@ const Deliveroo = () => {
       <div className="w-full md:w-full lg:w-full flex justify-center  sm:pb-80 md:mt-10 ">
         <Card
           images="https://f.roocdn.com/images/menu_items/1583350/item-image.jpg"
+          classNameImg=" w-full h-96 md:h-auto object-cover md:w-56 rounded-t-lg md:rounded-none md:rounded-l-lg"
           titleh5="Deliveroo"
           text="Lors de mes 10 semaines de Bootcamp dans l'école de formation Le Reacteur, j'ai eu comme exercice la réalisation de la maquette Deliveroo."
           text2="Lors de cet exercice :"
@@ -15,8 +16,10 @@ const Deliveroo = () => {
           li3="Grâce aux changements d'états, j'ai créez le panier qui affiche les commandes sélectionné."
           titleh3="Modification à venir :  "
           text3="Intégrer la responsive avec Tailwind ou Bootstrap / Modifer le panier afin qu'il affiche le montant de la commande."
-          gitHub="GitHub"
-          gitHubLink="https://github.com/PrissGitHubGon/deliveroo-front-end"
+          titleRedirect="GitHub"
+          iconRedirect="fa-brands fa-github ml-3 md:ml-1 "
+          classNameRedirect="text-white-800 text-2xl md:text-4xl"
+          redirectLink="https://github.com/PrissGitHubGon/deliveroo-front-end"
           classNameWebSite="hidden"
         />
       </div>
