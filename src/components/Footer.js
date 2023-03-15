@@ -13,12 +13,16 @@ const Footer = () => {
           <a
             href="https://www.linkedin.com/in/priscillia-gon%C3%A7alves-098285217/"
             className="mr-9 text-white-800 text-2xl md:text-4xl"
+            target="_blank"
+            rel="noreferrer"
           >
             <i className="fa-brands fa-linkedin-in"></i>
           </a>
           <a
             href="https://github.com/PrissGitHubGon"
             className="text-white-800 text-2xl md:text-4xl"
+            target="_blank"
+            rel="noreferrer"
           >
             <i className="fa-brands fa-github"></i>
           </a>
