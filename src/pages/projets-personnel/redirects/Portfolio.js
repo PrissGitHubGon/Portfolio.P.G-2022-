@@ -6,7 +6,7 @@ const Portfolio = () => {
       <div className="flex flex-col md:flex-row md:max-w-4xl rounded-lg bg-white shadow-lg">
         <img
           className=" w-full h-96 md:h-auto object-cover md:w-56 rounded-t-lg md:rounded-none md:rounded-l-lg"
-          src="https://res.cloudinary.com/dl6flp50k/image/upload/v1660153028/portfolio_oyt4tq.jpg"
+          src="https://res.cloudinary.com/dl6flp50k/image/upload/v1660153028/portefolio/portfolio_oyt4tq.jpg"
           alt=""
         />
         <div className="p-6 flex flex-col justify-start">
