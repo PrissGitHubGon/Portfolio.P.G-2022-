@@ -59,7 +59,7 @@ const Header = () => {
               </li>
               <li className="border-b-2 border-fuchsia-900 sm:border-fuchsia-600  sm:hover:border-fuchsia-800 my-8 uppercase">
                 <Link to="/projets-personnel" onClick={closeSideBar}>
-                  Projets personnel
+                  Projets personnels
                 </Link>
               </li>
               <li className="border-b-2 border-fuchsia-900 sm:border-fuchsia-600  sm:hover:border-fuchsia-800 my-8 uppercase">
@@ -103,7 +103,7 @@ const Header = () => {
               titleHeader="Réalisations"
               titleLink1="Projets de formation"
               link1="projets-formation"
-              titleLink2="Projets personnel"
+              titleLink2="Projets personnels"
               link2="projets-personnel"
               titleLink3="Expériences professionnelles"
               link3="experience-professionnel"
