@@ -54,17 +54,17 @@ const Header = () => {
               </li>
               <li className="border-b-2 border-fuchsia-900 sm:border-fuchsia-600  sm:hover:border-fuchsia-800 my-8 uppercase">
                 <Link to="/projets-formation" onClick={closeSideBar}>
-                  Portfolio de Formation
+                  Projets de Formation
                 </Link>
               </li>
               <li className="border-b-2 border-fuchsia-900 sm:border-fuchsia-600  sm:hover:border-fuchsia-800 my-8 uppercase">
                 <Link to="/projets-personnel" onClick={closeSideBar}>
-                  Portfolio de mes projets
+                  Projets personnel
                 </Link>
               </li>
               <li className="border-b-2 border-fuchsia-900 sm:border-fuchsia-600  sm:hover:border-fuchsia-800 my-8 uppercase">
                 <Link to="/experience-professionnel" onClick={closeSideBar}>
-                  Expérience professionnel
+                  Expériences professionnelles
                 </Link>
               </li>
               <li className="border-b-2 border-fuchsia-900 sm:border-fuchsia-600  sm:hover:border-fuchsia-800 my-8 uppercase">
@@ -101,11 +101,11 @@ const Header = () => {
           <li>
             <DropdownContact
               titleHeader="Réalisations"
-              titleLink1="Projet de formation"
+              titleLink1="Projets de formation"
               link1="projets-formation"
-              titleLink2="Projet personnel"
+              titleLink2="Projets personnel"
               link2="projets-personnel"
-              titleLink3="Expérience professionnel"
+              titleLink3="Expériences professionnelles"
               link3="experience-professionnel"
             />
           </li>
