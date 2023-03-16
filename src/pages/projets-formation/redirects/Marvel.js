@@ -7,7 +7,6 @@ const Marvel = () => {
       <div className="w-full md:w-full lg:w-full flex justify-center sm:pb-80 md:mt-10">
         <Card
           images="https://res.cloudinary.com/dl6flp50k/image/upload/v1659953418/gabriel-2519793_960_720_jnbquh.webp"
-          classNameImg=" w-full h-96 md:h-auto object-cover md:w-56 rounded-t-lg md:rounded-none md:rounded-l-lg"
           titleh5="Marvel"
           text="Lors de mes 10 semaines de Bootcamp dans l'école de formation Le Reacteur, j'ai eu comme Test technique la réalisation du site Marvel."
           text2="Lors de cet exercice je devais :"
@@ -17,10 +16,13 @@ const Marvel = () => {
           titleRedirect="GitHub"
           redirectLink="https://github.com/PrissGitHubGon/marvel-frontend"
           iconRedirect="fa-brands fa-github ml-3 md:ml-1 "
-          classNameRedirect="text-white-800 text-2xl md:text-4xl"
           siteWeb2="Aperçu"
           siteWebLink2="https://marvel-student-lereacteur.netlify.app/"
+          /*className component*/
+          classNameImg=" w-full h-96 md:h-auto object-cover md:w-56 rounded-t-lg md:rounded-none md:rounded-l-lg"
+          classNameRedirect="text-white-800 text-2xl md:text-4xl"
           classNameWebSite="text-green-800 text-2xl md:text-4xl"
+          classNameLi3="list-disc"
         />
       </div>
       <div className="flex justify-between">

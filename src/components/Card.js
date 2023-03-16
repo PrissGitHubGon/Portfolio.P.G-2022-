@@ -1,4 +1,6 @@
 import React from "react";
+import Zoom from "react-medium-image-zoom";
+import "react-medium-image-zoom/dist/styles.css";
 
 const Card = (props) => {
   const {
@@ -20,6 +22,14 @@ const Card = (props) => {
     classNameWebSite,
     siteWeb2,
     classNameImg,
+    classNameImgRecommandation,
+    imagesRecommandation,
+    classNameLi3,
+    titleCustomMiddle,
+    classNameTitleCustomMiddle,
+    titleCustomEnd,
+    titleCustomStart,
+    classNameTitleCustomStartEnd,
   } = props;
 
   return (
@@ -30,8 +40,16 @@ const Card = (props) => {
           <h5 className="text-gray-900 text-4xl font-medium mb-4 text-center">
             {titleh5}
           </h5>
+          <h5 className={classNameTitleCustomStartEnd}>
+            {titleCustomStart}
+            <span className={classNameTitleCustomMiddle}>
+              {titleCustomMiddle}
+            </span>
+            {titleCustomEnd}
+          </h5>
           <p className="text-gray-700 text-base mb-4">
-            {text} <br /> {text1}
+            {text} <br />
+            <br /> {text1}
           </p>
           <p className="text-gray-900 text-lg font-medium mb-2">{text2}</p>
 
@@ -39,10 +57,20 @@ const Card = (props) => {
             <li className="list-disc"> {li1} </li> <br />
             <li className="list-disc">{li2}</li>
             <br />
-            <li className="list-disc">{li3}</li>
+            <li className={classNameLi3}>{li3}</li>
           </ol>
           <h3 className="text-gray-900 text-lg font-medium mb-2">{titleh3}</h3>
+          <Zoom>
+            <img
+              alt=""
+              src={imagesRecommandation}
+              width="500"
+              className={classNameImgRecommandation}
+            />
+          </Zoom>
+
           <p className="text-gray-700 text-base pb-4 border-b-2">{text3}</p>
+
           <div className="flex flex-row justify-center space-x-14 pt-5">
             <a
               href={redirectLink}
