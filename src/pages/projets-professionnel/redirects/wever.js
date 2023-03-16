@@ -17,7 +17,7 @@ const Wever = () => {
           text1="En full remote"
           text2="Lors de ce stage j'ai' :"
           li1="Refait “from scratch” leur application utilisateur v1 pour une montée en version des composants et aussi la passer en TypeScript"
-          li2="Ajouté de nouveaux composants"
+          li2="Ajouté de nouvelles fonctionnalités"
           siteWebLink2="https://www.wever.fr/"
           siteWeb2="Site web"
           redirectLink="https://www.linkedin.com/company/yeswever/mycompany/"
