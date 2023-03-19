@@ -13,7 +13,7 @@ const Header = () => {
     setIsNavOpen(false);
   };
   return (
-    <div className="flex items-center justify-between py-4 pl-4 bg-gray-800 text-white ">
+    <div className="flex items-center justify-between py-4 pl-4 bg-gradient-to-r from-green-300 to-blue-400 hover:from-pink-400 hover:to-yellow-400 text-black ">
       <a href="/" className="ml-6  h-20 w-20">
         <img src={icon} alt="" />
       </a>

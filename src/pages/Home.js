@@ -5,17 +5,17 @@ const Home = () => {
   return (
     <>
       <main className="  ">
-        <div className="bg-black  flex flex-col py-16  lg:flex-row  ">
+        <div className=" flex flex-col py-16  lg:flex-row  ">
           <div className=" lg:w-2/4  ml-22 pb-5 ">
             <img
               src="https://res.cloudinary.com/dl6flp50k/image/upload/v1659365893/portefolio/me_c0bgw0.png"
               alt=""
-              className="picture"
+              className="picture "
             />
           </div>
 
-          <div className="bg-black lg:w-2/4 pl-3 pr-3 pb-5  2xl:w-3/4">
-            <h1 className="text-xl sm:px-12  md:text-3xl bg-clip-text text-transparent bg-gradient-to-r from-indigo-400 via-purple-400 to-pink-400 ">
+          <div className=" lg:w-2/4 pl-3 pr-3 pb-5  2xl:w-3/4">
+            <h1 className="text-xl sm:px-12  md:text-3xl bg-clip-text text-transparent bg-gradient-to-r from-indigo-800 via-purple-800 to-pink-800 ">
               <Typewriter
                 options={{
                   strings: [
@@ -29,7 +29,7 @@ const Home = () => {
             </h1>
             <br />
 
-            <p className="text-slate-400 text-base lg:px-12 sm:text-lg  md:text-2xl ">
+            <p className="text-black text-base lg:px-12 sm:text-lg  md:text-2xl ">
               Amoureuse de projets créatifs (Lego,crochet, dessins, peintures
               etc...), je me suis tout naturellement tournée vers une carrière
               de Développeuse web lors de mon choix de reconversion
