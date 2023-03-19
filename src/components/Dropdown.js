@@ -76,7 +76,7 @@ const DropdownContact = (props) => {
                     active && titleLink3
                       ? "bg-gradient-to-r from-blue-400 to-green-300 text-gray-900"
                       : "text-gray-700",
-                    "block px-4 py-2 text-sm"
+                    titleLink3 ? "block px-4 py-2 text-sm" : ""
                   )}
                 >
                   {titleLink3}
