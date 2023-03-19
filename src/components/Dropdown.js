@@ -43,7 +43,9 @@ const DropdownContact = (props) => {
                 <a
                   href={link1}
                   className={classNames(
-                    active ? "bg-gray-800/50 text-gray-900" : "text-gray-700",
+                    active
+                      ? "bg-gradient-to-r from-green-300 to-blue-400 text-gray-900"
+                      : "text-gray-700",
                     "block px-4 py-2 text-sm"
                   )}
                 >
@@ -56,7 +58,9 @@ const DropdownContact = (props) => {
                 <a
                   href={link2}
                   className={classNames(
-                    active ? "bg-gray-800/50 text-gray-900" : "text-gray-700",
+                    active
+                      ? "bg-gradient-to-r from-pink-400 to-yellow-400 text-gray-900"
+                      : "text-gray-700",
                     "block px-4 py-2 text-sm"
                   )}
                 >
@@ -69,7 +73,9 @@ const DropdownContact = (props) => {
                 <a
                   href={link3}
                   className={classNames(
-                    active ? "bg-gray-800/50 text-gray-900" : "text-gray-700",
+                    active && titleLink3
+                      ? "bg-gradient-to-r from-blue-400 to-green-300 text-gray-900"
+                      : "text-gray-700",
                     "block px-4 py-2 text-sm"
                   )}
                 >
