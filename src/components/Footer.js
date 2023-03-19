@@ -7,7 +7,7 @@ const Footer = () => {
     return new Date().getFullYear();
   };
   return (
-    <footer className="text-center bg-gradient-to-r from-green-300 to-blue-400 hover:from-pink-400 hover:to-yellow-400 text-black">
+    <footer className="text-center bg-[url('https://res.cloudinary.com/dl6flp50k/image/upload/v1679230930/portefolio/background-784377_960_720_svbl1v.jpg')]  bg-cover text-black">
       <div className="pt-6 md:py-10">
         <div className="flex justify-center mb-4">
           <a
