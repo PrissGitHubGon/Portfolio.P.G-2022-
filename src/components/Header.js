@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import DropdownContact from "./Dropdown";
 import pdf from "../assets/doc/CV_Priscillia Gonçalves.pdf";
-import icon from "../assets/img/icon.png";
+// import icon from "../assets/img/icon.png";
 const Header = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
   const handleIsOpen = () => {
