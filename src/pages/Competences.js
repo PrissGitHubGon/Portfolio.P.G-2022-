@@ -6,10 +6,10 @@ import data from "../assets/data/competences.json";
 const Competences = () => {
   return (
     <>
-      <p className="text-2xl sm:text-left text-center py-8 sm:ml-5 font-bold">
+      {/* <p className="text-2xl sm:text-left text-center py-8 sm:ml-5 font-bold">
         Compétences acquises :
-      </p>
-      <div className="relative flex gap-4 overflow-hidden flex-wrap lg:py-12 py-4 sm:pb-72   md:pb-32 pb-44   place-content-center">
+      </p> */}
+      <div className="relative flex gap-4 overflow-hidden flex-wrap mt-3 lg:py-12 py-4 sm:pb-72   md:pb-32 pb-44   place-content-center">
         {data.confirmer.map((competence, index) => {
           return (
             <div
@@ -36,7 +36,7 @@ const Competences = () => {
           );
         })}
       </div>
-      <p className="text-2xl sm:text-left text-center py-8 sm:ml-5 font-bold">
+      {/* <p className="text-2xl sm:text-left text-center py-8 sm:ml-5 font-bold">
         Compétences en cours :
       </p>
       <div className="relative flex gap-4 overflow-hidden flex-wrap lg:py-12 py-4 sm:pb-72   md:pb-32 pb-44   place-content-center">
@@ -65,7 +65,7 @@ const Competences = () => {
             </div>
           );
         })}
-      </div>
+      </div> */}
     </>
   );
 };

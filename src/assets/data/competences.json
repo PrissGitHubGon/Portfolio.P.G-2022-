@@ -40,13 +40,17 @@
     {
       "title": "Node.js",
       "imageUrl": "https://res.cloudinary.com/dl6flp50k/image/upload/v1658411418/portefolio/nodejs_mrn0mf.png"
-    }
-  ],
-  "encours": [
+    },
     {
       "title": "TypeScript",
       "imageUrl": "https://res.cloudinary.com/dl6flp50k/image/upload/v1675854820/portefolio/ts_jjnatt.png"
     },
+    {
+      "title": "Anglais A1",
+      "imageUrl": "https://res.cloudinary.com/dl6flp50k/image/upload/v1658411586/portefolio/anglais_ebrlku.png"
+    }
+  ],
+  "encours": [
     {
       "title": "React Native",
       "imageUrl": "https://res.cloudinary.com/dl6flp50k/image/upload/v1658477585/portefolio/reactNative_n2vq5x.png"
