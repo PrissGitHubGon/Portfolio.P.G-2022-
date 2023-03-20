@@ -1,5 +1,6 @@
 import { Fragment } from "react";
 import { Menu, Transition } from "@headlessui/react";
+import { Translate } from "react-localize-alias";
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
@@ -19,7 +20,8 @@ const DropdownContact = (props) => {
     <Menu as="div" className="relative inline-block text-center z-40">
       <div>
         <Menu.Button className="space-x-8 lg:flex mr-5 ">
-          {titleHeader}
+          <Translate id={titleHeader} />
+
           <i
             className="fa-solid fa-angle-down -mr-1 ml-2 pt-1"
             aria-hidden="true"
@@ -49,7 +51,7 @@ const DropdownContact = (props) => {
                     "block px-4 py-2 text-sm"
                   )}
                 >
-                  {titleLink1}
+                  <Translate id={titleLink1} />
                 </a>
               )}
             </Menu.Item>
@@ -64,7 +66,7 @@ const DropdownContact = (props) => {
                     "block px-4 py-2 text-sm"
                   )}
                 >
-                  {titleLink2}
+                  <Translate id={titleLink2} />
                 </a>
               )}
             </Menu.Item>
@@ -79,7 +81,7 @@ const DropdownContact = (props) => {
                     titleLink3 ? "block px-4 py-2 text-sm" : ""
                   )}
                 >
-                  {titleLink3}
+                  <Translate id={titleLink3} />
                 </a>
               )}
             </Menu.Item>

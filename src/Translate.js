@@ -1,0 +1,31 @@
+const translations = {
+  en: {
+    Competences: "Skills",
+    Presentation: "Presentation",
+    ProjetsFormation: "Formation Projects",
+    ProjetsPersonnels: "Personal projects",
+    ExperienceProfessional: "Professional",
+    DownloadCv: "Upload my resume",
+    Email: "Send an Email",
+    Call: "Call me",
+    French: "French",
+    English: "English",
+    ContactMe: "Contact me",
+    Realisations: "Realisations",
+  },
+  fr: {
+    Competences: "Compétences",
+    Presentation: "Présentation",
+    ProjetsFormation: "Projets de Formation",
+    ProjetsPersonnels: "Projets personnels",
+    ExperienceProfessional: "Expériences professionnelles",
+    DownloadCv: "Télécharger mon cv",
+    Email: "Envoyer un Email",
+    Call: "Appelez moi",
+    French: "Français",
+    English: "Anglais",
+    ContactMe: "Me contacter",
+    Realisations: "Réalisations",
+  },
+};
+export default translations;

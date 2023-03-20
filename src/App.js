@@ -1,5 +1,9 @@
 // Package
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { useEffect } from "react";
+import { initLocalize } from "react-localize-alias";
+
+import translations from "./Translate";
 
 // Component
 import Footer from "./components/Footer";
@@ -27,6 +31,22 @@ import ProjetsPro from "./pages/projets-professionnel/Projets-pro";
 import Wever from "./pages/projets-professionnel/redirects/wever";
 
 const App = () => {
+  useEffect(() => {
+    initLocalize({
+      languages: [
+        { code: "en", name: "English" },
+        { code: "fr", name: "French" },
+      ],
+      translations,
+      options: {
+        defaultLanguage: "fr",
+
+        onMissing: (data) => console.log(data),
+
+        onAlias: (alias) => alias,
+      },
+    });
+  }, []);
   return (
     <Router>
       {/* Ternaire qui permet de ne pas afficher le header et le footer sur la page d'accueil */}
