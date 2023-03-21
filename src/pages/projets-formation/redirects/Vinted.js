@@ -1,4 +1,5 @@
 import React from "react";
+import { Translate } from "react-localize-alias";
 
 const Vinted = () => {
   return (
@@ -16,53 +17,41 @@ const Vinted = () => {
                 Vinted
               </h5>
               <p className="text-gray-700 text-base mb-4">
-                Lors de mes 10 semaines de Bootcamp dans l'école de formation
-                "Le Reacteur", j'ai eu comme exercice la réalisation de la
-                maquette Vinted.
+                <Translate id="Vinted_text" />
               </p>
               <p className="text-gray-900 text-lg font-medium mb-2">
-                J'ai réalisé lors du module back-end une Api permettant :
+                <Translate id="Vinted_text1" />
               </p>
 
               <ol className="text-gray-700 text-base mb-4 ">
                 <li className="list-disc">
-                  La Connexion & L'Inscription sur le site{" "}
+                  <Translate id="Vinted_li1" />
                 </li>{" "}
                 <br />
                 <li className="list-disc">
-                  La possibilité de poster une Annonce seulement après connexion
-                  sur le site.
+                  <Translate id="Vinted_li2" />
                 </li>
                 <br />
               </ol>
               <p className="text-gray-900 text-lg font-medium mb-2">
-                J'ai réalisé lors du module Front-end :
+                <Translate id="Vinted_text2" />
               </p>
 
               <ol className="text-gray-700 text-base mb-4 ">
                 <li className="list-disc">
-                  Les formulaires de connexion et d'Inscription
+                  <Translate id="Vinted_li3" />
                 </li>{" "}
                 <br />
                 <li className="list-disc">
-                  Le formulaire pour poster une annonce
+                  <Translate id="Vinted_li4" />
                 </li>
                 <br />
-                <li className="list-disc">
-                  La connexion entre le front-end et l'API afin d'afficher
-                  toutes les Annonces créer, stocké en BDD.
+                <li className="list-disc pb-5 border-b-2">
+                  <Translate id="Vinted_li5" />
                 </li>
               </ol>
-              <h3 className="text-gray-900 text-lg font-medium mb-2">
-                Modification à venir :{" "}
-              </h3>
-              <p className="text-gray-700 text-base pb-4 border-b-2">
-                Refonte du site pour mettre en place la responsive avec Tailwind
-                ou Bootstrap / Mise en place d'une pagination numéroté / Mettre
-                en place le filtre "Prix" pour afficher des annonces en ordre
-                croissant ou décroissant
-              </p>
-              <div className="flex flex-row justify-center space-x-14 pt-5">
+
+              <div className="flex flex-row justify-center space-x-14 pt-3">
                 <a
                   href="https://github.com/PrissGitHubGon/Vinted-frontEnd"
                   className="text-white-800 text-2xl md:text-4xl"
