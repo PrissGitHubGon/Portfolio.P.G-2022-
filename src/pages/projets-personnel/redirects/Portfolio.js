@@ -1,4 +1,5 @@
 import React from "react";
+import { Translate } from "react-localize-alias";
 
 const Portfolio = () => {
   return (
@@ -13,23 +14,26 @@ const Portfolio = () => {
           <h5 className="text-gray-900 text-4xl font-medium mb-4 text-center">
             Portfolio
           </h5>
-          <p className="text-gray-700 text-base mb-4">Ma première création…</p>
           <p className="text-gray-700 text-base mb-4">
-            J'ai mis beaucoup de temps à m'y mettre. Un coup, je voulais un site
-            en une page, puis non... tel ou telle couleur… le logo que je
-            mettrais était un grand mystère, ECTS… 🙄
+            {" "}
+            <Translate id="Portefolio_1" />
+          </p>
+          <p className="text-gray-700 text-base mb-4">
+            <Translate id="Portefolio_2" />
           </p>
 
           <p className="text-gray-700 text-base mb-4">
-            Mais, je me suis enfin lancé… Et les idées sont venues au fur et à
-            mesure. Je ne suis pas designer et ça se voit ! Néanmoins, je reste
-            fière de mon premier bébé 🤩.
+            <Translate id="Portefolio_3" />
           </p>
           <h3 className="text-gray-900 text-lg font-medium mb-2">
-            Pour réaliser mon portfolio, je me suis servi de :
+            <Translate id="Portefolio_4" />
           </h3>
           <ol className="text-gray-700 text-base mb-4 ml-4">
-            <li className="list-disc"> React.js (bien sûr 😁)</li> <br />
+            <li className="list-disc">
+              {" "}
+              React.js (<Translate id="Portefolio_5" />)
+            </li>{" "}
+            <br />
             <li className="list-disc">
               Tailwind Css | Font Awesome | bootstrap
             </li>
@@ -37,12 +41,11 @@ const Portfolio = () => {
             <li className="list-disc">Yarn </li>
             <br />
             <li className="list-disc">
-              react-localize-alias pour la traduction
+              react-localize-alias <Translate id="Portefolio_6" />
             </li>
             <br />
             <li className="list-disc">
-              "Responsive Viewer", pour vérifier l'adaptabilité du portfolio sur
-              tout écran.
+              "Responsive Viewer", <Translate id="Portefolio_7" />.
             </li>
           </ol>
           <div className="flex flex-row justify-center space-x-14 pt-5">

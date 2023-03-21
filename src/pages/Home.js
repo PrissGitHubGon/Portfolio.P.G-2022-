@@ -1,7 +1,6 @@
 import React from "react";
 import { Translate } from "react-localize-alias";
 import Typewriter from "typewriter-effect";
-import translations from "../Translate";
 
 const Home = () => {
   return (
