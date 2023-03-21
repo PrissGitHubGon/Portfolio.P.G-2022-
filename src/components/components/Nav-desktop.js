@@ -6,8 +6,6 @@ import { setActiveLanguage } from "react-localize-alias";
 import pdf from "../../assets/doc/CV_Priscillia Gonçalves.pdf";
 
 const NavDesktop = () => {
-  // const [isActive, setIsActive] = useState(false);
-
   // const changeLanguage = () => {
   //   setIsActive(!isActive);
   // };
@@ -55,10 +53,7 @@ const NavDesktop = () => {
         </a>
       </li>{" "}
       <li>
-        <button
-          className={setActiveLanguage === "fr" ? "border-b-4" : ""}
-          onClick={() => setActiveLanguage("fr")}
-        >
+        <button className="" onClick={() => setActiveLanguage("fr")}>
           FR
         </button>
         <span></span> | <span></span>
