@@ -46,6 +46,15 @@ const NavDesktop = () => {
         />
       </li>
       <li>
+        <a href={pdf} download className="flex">
+          <p className="mr-5">
+            {" "}
+            <Translate id="DownloadCv" />
+          </p>{" "}
+          <i className="fa-solid fa-file-lines pt-1"></i>
+        </a>
+      </li>{" "}
+      <li>
         <button
           className={setActiveLanguage === "fr" ? "border-b-4" : ""}
           onClick={() => setActiveLanguage("fr")}
@@ -57,15 +66,6 @@ const NavDesktop = () => {
           EN
         </button>
       </li>{" "}
-      <li>
-        <a href={pdf} download className="flex">
-          <p className="mr-5">
-            {" "}
-            <Translate id="DownloadCv" />
-          </p>{" "}
-          <i className="fa-solid fa-file-lines pt-1"></i>
-        </a>
-      </li>
     </ul>
   );
 };
