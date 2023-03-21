@@ -31,16 +31,18 @@ const Portfolio = () => {
           <ol className="text-gray-700 text-base mb-4 ml-4">
             <li className="list-disc"> React.js (bien sûr 😁)</li> <br />
             <li className="list-disc">
-              J'ai découvert et appris à utiliser Tailwind Css
+              Tailwind Css | Font Awesome | bootstrap
             </li>
             <br />
             <li className="list-disc">Yarn </li>
             <br />
-            <li className="list-disc">Font Awesome </li>
+            <li className="list-disc">
+              react-localize-alias pour la traduction
+            </li>
             <br />
             <li className="list-disc">
-              L'extension chrome "Responsive Viewer", pour vérifier
-              l'adaptabilité du portfolio sur tout écran.
+              "Responsive Viewer", pour vérifier l'adaptabilité du portfolio sur
+              tout écran.
             </li>
           </ol>
           <div className="flex flex-row justify-center space-x-14 pt-5">

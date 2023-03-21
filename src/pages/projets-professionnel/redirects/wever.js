@@ -11,15 +11,15 @@ const Wever = () => {
           titleCustomStart="wev"
           titleCustomMiddle="e"
           titleCustomEnd="r"
-          titleh3="Recommandation :"
+          titleh3="wever_titleh3"
           titleRedirect="LinkedIn"
-          text="J'ai réalisé un stage de 6 mois dans la startup wever Basé à sophia Antipolis. "
-          text1="En full remote"
-          text2="Lors de ce stage j'ai' :"
-          li1="Refait “from scratch” leur application utilisateur v1 pour une montée en version des composants et aussi la passer en TypeScript"
-          li2="Ajouté de nouvelles fonctionnalités"
+          text="wever_text"
+          text1="wever_text1"
+          text2="wever_text2"
+          li1="wever_li1"
+          li2="wever_li2"
           siteWebLink2="https://www.wever.fr/"
-          siteWeb2="Site web"
+          siteWeb2="siteWeb2"
           redirectLink="https://www.linkedin.com/company/yeswever/mycompany/"
           iconRedirect="fa-brands fa-linkedin flex justify-center"
           /*className component*/
@@ -39,7 +39,7 @@ const Wever = () => {
             Projets
           </p>
         </a>
-        {/* <a href="/vinted">
+        {/* <a href="/">
           <i className="fa-regular fa-hand-point-right text-4xl pr-5 bg-clip-text text-transparent bg-gradient-to-r from-red-900 via-orange-800 to-amber-700  hover:text-green-900 "></i>
           <p className="text-center pr-6 italic bg-clip-text text-transparent bg-gradient-to-r from-red-900 via-orange-800 to-amber-700 font-bold ">
             Vinted

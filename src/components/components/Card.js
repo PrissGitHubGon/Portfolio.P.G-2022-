@@ -1,4 +1,5 @@
 import React from "react";
+import { Translate } from "react-localize-alias";
 import Zoom from "react-medium-image-zoom";
 import "react-medium-image-zoom/dist/styles.css";
 
@@ -38,7 +39,7 @@ const Card = (props) => {
         <img className={classNameImg} src={images} alt="" />
         <div className="p-6 flex flex-col justify-start">
           <h5 className="text-gray-900 text-4xl font-medium mb-4 text-center">
-            {titleh5}
+            <Translate id={titleh5} />
           </h5>
           <h5 className={classNameTitleCustomStartEnd}>
             {titleCustomStart}
@@ -48,18 +49,31 @@ const Card = (props) => {
             {titleCustomEnd}
           </h5>
           <p className="text-gray-700 text-base mb-4">
-            {text} <br />
-            <br /> {text1}
+            <Translate id={text} />
+            <br />
+            <br /> <Translate id={text1} />
           </p>
-          <p className="text-gray-900 text-lg font-medium mb-2">{text2}</p>
+          <p className="text-gray-900 text-lg font-medium mb-2">
+            <Translate id={text2} />
+          </p>
 
           <ol className="text-gray-700 text-base mb-4 ">
-            <li className="list-disc"> {li1} </li> <br />
-            <li className="list-disc">{li2}</li>
+            <li className="list-disc">
+              {" "}
+              <Translate id={li1} />{" "}
+            </li>{" "}
             <br />
-            <li className={classNameLi3}>{li3}</li>
+            <li className="list-disc">
+              <Translate id={li2} />
+            </li>
+            <br />
+            <li className={classNameLi3}>
+              <Translate id={li3} />
+            </li>
           </ol>
-          <h3 className="text-gray-900 text-lg font-medium mb-2">{titleh3}</h3>
+          <h3 className="text-gray-900 text-lg font-medium mb-2">
+            <Translate id={titleh3} />
+          </h3>
           <Zoom>
             <img
               alt=""
@@ -69,7 +83,9 @@ const Card = (props) => {
             />
           </Zoom>
 
-          <p className="text-gray-700 text-base pb-4 border-b-2">{text3}</p>
+          <p className="text-gray-700 text-base pb-4 border-b-2">
+            <Translate id={text3} />
+          </p>
 
           <div className="flex flex-row justify-center space-x-14 pt-5">
             <a
@@ -79,7 +95,9 @@ const Card = (props) => {
               rel="noreferrer"
             >
               <i className={iconRedirect}></i>
-              <p className="text-center text-sm"> {titleRedirect} </p>
+              <p className="text-center text-sm">
+                <Translate id={titleRedirect} />{" "}
+              </p>
             </a>
 
             <a
@@ -89,7 +107,9 @@ const Card = (props) => {
               rel="noreferrer"
             >
               <i className="fa-brands fa-internet-explorer flex justify-center "></i>
-              <p className="text-center text-sm">{siteWeb2}</p>
+              <p className="text-center text-sm">
+                <Translate id={siteWeb2} />
+              </p>
             </a>
           </div>
         </div>

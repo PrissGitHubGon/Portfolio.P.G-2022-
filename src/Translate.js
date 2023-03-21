@@ -18,6 +18,15 @@ const translations = {
       "Curious web developer, I like simple, fast and efficient applications.",
     Presentation3:
       "A sense of listening and service reinforced by 15 years of experience in the field of early childhood, I am motivated by the need to always do better, to acquire new skills, and take pleasure in meeting new challenges.",
+    wever_text:
+      "I did an internship of 6 months in the startup wever based in Sophia Antipolis.",
+    wever_text1: "In full remote",
+    wever_text2: "During this internship I have :",
+    wever_li1:
+      "Redesigned their v1 user application from scratch for a component upgrade and also converted it to TypeScript",
+    wever_li2: "Added new features",
+    siteWeb2: "Website",
+    wever_titleh3: "Recommendation:",
   },
   fr: {
     Competences: "Compétences",
@@ -38,6 +47,15 @@ const translations = {
       "Développeuse web curieuse, j'aime les applications simples,rapides et efficaces.",
     Presentation3:
       "Un sens de l'écoute et du service renforcé par 15 ans d'expérience dans les métiers de la petite enfance, je suis motivée par le besoin de faire toujours mieux, d'acquérir de nouvelles compétences, et prends plaisir à relever de nouveaux challenges.",
+    wever_text:
+      "J'ai réalisé un stage de 6 mois dans la startup wever Basé à sophia Antipolis.",
+    wever_text1: "A distance",
+    wever_text2: "Lors de ce stage j'ai' :",
+    wever_li1:
+      "Refait “from scratch” leur application utilisateur v1 pour une montée en version des composants et aussi la passer en TypeScript",
+    wever_li2: "Ajouté de nouvelles fonctionnalités",
+    siteWeb2: "Site web",
+    wever_titleh3: "Recommandation :",
   },
 };
 export default translations;

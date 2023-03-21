@@ -18,29 +18,18 @@ const Home = () => {
 
           <div className=" lg:w-2/4 pl-3 pr-3 pb-5  2xl:w-3/4">
             <h1 className="text-xl sm:px-12  md:text-3xl bg-clip-text text-transparent bg-gradient-to-r from-indigo-800 via-purple-800 to-pink-800 ">
-              {translations === "fr" ? (
-                <Typewriter
-                  options={{
-                    strings: [
-                      "Bonjour, Je m'appelle Priscillia Gonçalves",
-                      "J'ai 32 ans.",
-                    ],
-                    autoStart: true,
-                    loop: true,
-                  }}
-                />
-              ) : (
-                <Typewriter
-                  options={{
-                    strings: [
-                      "Hello, my name is Priscillia Gonçalves",
-                      "I am 32 years old.",
-                    ],
-                    autoStart: true,
-                    loop: true,
-                  }}
-                />
-              )}
+              <Typewriter
+                options={{
+                  strings: [
+                    "Bonjour, Je m'appelle Priscillia Gonçalves",
+                    "Hello, my name is Priscillia Gonçalves",
+                    "J'ai 32 ans.",
+                    "I am 32 years old.",
+                  ],
+                  autoStart: true,
+                  loop: true,
+                }}
+              />
             </h1>
             <br />
 
