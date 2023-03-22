@@ -12,6 +12,14 @@ const NavMobile = () => {
   const closeSideBar = () => {
     setIsNavOpen(false);
   };
+  const changeLanguagesFr = () => {
+    setIsNavOpen(false);
+    setActiveLanguage("fr");
+  };
+  const changeLanguagesEn = () => {
+    setIsNavOpen(false);
+    setActiveLanguage("en");
+  };
   return (
     <section className="MOBILE-MENU flex lg:hidden mr-7 ">
       <div
@@ -83,17 +91,11 @@ const NavMobile = () => {
             </a>
           </li>
           <li className="border-b-2 border-fuchsia-900 sm:border-fuchsia-600  sm:hover:border-fuchsia-800 my-8 uppercase">
-            <button
-              className="uppercase"
-              onClick={() => setActiveLanguage("fr")}
-            >
+            <button className="uppercase" onClick={changeLanguagesFr}>
               <Translate id="French" />
             </button>{" "}
             /{" "}
-            <button
-              className="uppercase"
-              onClick={() => setActiveLanguage("en")}
-            >
+            <button className="uppercase" onClick={changeLanguagesEn}>
               <Translate id="English" />
             </button>
           </li>
