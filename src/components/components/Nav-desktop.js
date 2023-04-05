@@ -3,7 +3,7 @@ import { Translate } from "react-localize-alias";
 import { Link } from "react-router-dom";
 import DropdownContact from "./Dropdown";
 import { setActiveLanguage } from "react-localize-alias";
-import pdf from "../../assets/doc/CV_Priscillia Gonçalves.pdf";
+import pdf from "../../assets/doc/cv-2023_Priscillia_Goncalves_dev_Front_React.pdf";
 
 const NavDesktop = () => {
   // const changeLanguage = () => {

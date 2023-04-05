@@ -1,6 +1,6 @@
 // Package
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { initLocalize } from "react-localize-alias";
 
 import translations from "./Translate";
@@ -31,6 +31,15 @@ import ProjetsPro from "./pages/projets-professionnel/Projets-pro";
 import Wever from "./pages/projets-professionnel/redirects/wever";
 
 const App = () => {
+  // LocalStorage
+
+  const languageForStorage = initLocalize;
+  // setter
+  localStorage.setItem("my-key", languageForStorage);
+  // getter
+  const languageFromStorage = localStorage.getItem("my-key");
+
+  // Traductions
   useEffect(() => {
     initLocalize({
       languages: [
@@ -41,7 +50,7 @@ const App = () => {
       options: {
         defaultLanguage: "fr",
 
-        onMissing: (data) => console.log(data),
+        onMissing: (data) => console.log("data language =========>", data),
 
         onAlias: (alias) => alias,
       },
