@@ -6,10 +6,6 @@ import { setActiveLanguage } from "react-localize-alias";
 import pdf from "../../assets/doc/cvPriscilliaGoncalves.pdf";
 
 const NavDesktop = () => {
-  // const changeLanguage = () => {
-  //   setIsActive(!isActive);
-  // };
-
   return (
     <ul className="DESKTOP-MENU hidden space-x-8 lg:flex mr-5 ">
       <li>

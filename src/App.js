@@ -29,6 +29,7 @@ import Portfolio from "./pages/projets-personnel/redirects/Portfolio";
 //**** projets-professionnel
 import ProjetsPro from "./pages/projets-professionnel/Projets-pro";
 import Wever from "./pages/projets-professionnel/redirects/wever";
+import Netflix from "./pages/projets-personnel/redirects/Netflix";
 
 const App = () => {
   // LocalStorage
@@ -75,6 +76,7 @@ const App = () => {
         {/* personnel */}
         <Route path="/projets-personnel" element={<ProjetsPerso />} />
         <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/netflix" element={<Netflix />} />
         {/* professionnel */}
         <Route path="/experience-professionnel" element={<ProjetsPro />} />
         <Route path="/wever" element={<Wever />} />

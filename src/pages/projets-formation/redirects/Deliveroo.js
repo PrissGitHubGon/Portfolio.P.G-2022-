@@ -1,5 +1,6 @@
 import React from "react";
 import Card from "../../../components/components/Card";
+import DirectionalArrow from "../../../components/components/Directional_arrow";
 
 const Deliveroo = () => {
   return (
@@ -25,14 +26,7 @@ const Deliveroo = () => {
           classNameLi3="list-disc"
         />
       </div>
-      <div className="flex justify-between">
-        <a href="/vinted">
-          <i className="fa-regular fa-hand-point-left text-4xl pl-5 bg-clip-text text-transparent bg-gradient-to-r from-red-900 via-orange-800 to-amber-700  hover:text-green-900 "></i>
-          <p className="text-center pl-4 italic bg-clip-text text-transparent bg-gradient-to-r from-red-900 via-orange-800 to-amber-700 font-bold">
-            Vinted
-          </p>
-        </a>
-      </div>
+      <DirectionalArrow rightLink="/vinted" rightTitle="Vinted" />
     </div>
   );
 };

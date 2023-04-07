@@ -81,6 +81,9 @@ const translations = {
     Vinted_li4: "The form to post an ad",
     Vinted_li5:
       "The connection between the front-end and the API to display all the Ads created, stored in the DB.",
+    //***** traduction du fichier - Netflix ****
+    Netflix_text:
+      "Reproduction of the Netflix interface, with some modifications.",
   },
   /**
    * *********************************
@@ -170,6 +173,9 @@ const translations = {
     Vinted_li4: "Le formulaire pour poster une annonce",
     Vinted_li5:
       "La connexion entre le front-end et l'API afin d'afficher toutes les Annonces créer, stocké en BDD.",
+    //***** traduction du fichier - Netflix ****
+    Netflix_text:
+      "Reproduction de l'interface de Netflix, avec quelques modification.",
   },
 };
 export default translations;
