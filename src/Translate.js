@@ -15,7 +15,7 @@ const translations = {
     Realisations: "Realisations",
     //***** traduction du fichier - Home ****
     Presentation1:
-      "In love with creative projects (Lego, crochet, drawings, paintings etc...), I naturally turned to a career as a web developer when I chose my professional reconversion, in order to create projects from A to Z.",
+      "In love with creative projects (Lego,drawings, paintings etc...), I naturally turned to a career as a web developer when I chose my professional reconversion, in order to create projects from A to Z.",
     Presentation2:
       "Curious web developer, I like simple, fast and efficient applications.",
     Presentation3:
@@ -104,7 +104,7 @@ const translations = {
 
     //***** traduction du fichier - Home ****
     Presentation1:
-      "Amoureuse de projets créatifs (Lego,crochet, dessins, peintures etc...), je me suis tout naturellement tournée vers une carrière de Développeuse web lors de mon choix de reconversion professionnelle, afin de pouvoir créer des projets de A à Z.",
+      "Amoureuse de projets créatifs (Lego, dessins, peintures etc...), je me suis tout naturellement tournée vers une carrière de Développeuse web lors de mon choix de reconversion professionnelle, afin de pouvoir créer des projets de A à Z.",
     Presentation2:
       "Développeuse web curieuse, j'aime les applications simples,rapides et efficaces.",
     Presentation3:

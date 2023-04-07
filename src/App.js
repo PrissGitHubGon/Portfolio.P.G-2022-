@@ -1,6 +1,6 @@
 // Package
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import { initLocalize } from "react-localize-alias";
 
 import translations from "./Translate";
@@ -36,8 +36,8 @@ const App = () => {
   const languageForStorage = initLocalize;
   // setter
   localStorage.setItem("my-key", languageForStorage);
-  // getter
-  const languageFromStorage = localStorage.getItem("my-key");
+  // // getter
+  // const languageFromStorage = localStorage.getItem("my-key");
 
   // Traductions
   useEffect(() => {
