@@ -84,6 +84,19 @@ const translations = {
     //***** traduction du fichier - Netflix ****
     Netflix_text:
       "Reproduction of the Netflix interface, with some modifications.",
+    //***** traduction du fichier - Dimitr Houssin ****
+    Dimitri_Houssin_text:
+      "Thanks to Dimitri Houssin, I was able to realize my very first internship as a Front End developer, for a period of six months.",
+    Dimitri_Houssin_text2:
+      "During this full remote internship, I was able to combine self-training and discovery of the React library.",
+    Dimitri_Houssin_text3:
+      "The web application project I worked on during my internship is called « FriendlyPets ».",
+    Dimitri_Houssin_text4:
+      "This is a personal project of my internship tutor and lead developer « Dimitri Houssin », which we had to create from scratch.",
+    Dimitri_Houssin_text5:
+      "This application intervenes to group the information and to allow to search what one wants: adoption, donation, sales, guarding, associations, breeder, parks, etc....",
+    Dimitri_Houssin_text6:
+      "FriendlyPet aims to create an application that gathers all types of ads that can be found on the internet today in order not to get lost in a wave of web applications and shady ads of all kinds, but especially to avoid the very frequent abandonment of animals when leaving on vacation: on freeways, in the forest or even in parks confronting these animals with hunger, thirst and various accidents on the public highway.",
   },
   /**
    * *********************************
@@ -176,6 +189,19 @@ const translations = {
     //***** traduction du fichier - Netflix ****
     Netflix_text:
       "Reproduction de l'interface de Netflix, avec quelques modification.",
+    //***** traduction du fichier - Dimitr Houssin ****
+    Dimitri_Houssin_text:
+      "J'ai pu Réaliser grâce à Dimitri Houssin, mon tout premier stage de développeuse Front End, pour une duré de six mois.",
+    Dimitri_Houssin_text2:
+      "Lors de ce stage en full remote, j'ai pu allier autoformation et découverte de la bibliothèque React.",
+    Dimitri_Houssin_text3:
+      "Le projet de l’application web sur lequel j’ai travaillé lors de mon stage se nomme « FriendlyPets ».",
+    Dimitri_Houssin_text4:
+      "C’est un projet personnel de mon tuteur de stage et lead développeur « Dimitri Houssin », qu’il a fallu créer de zéro.",
+    Dimitri_Houssin_text5:
+      "Cette application intervient pour regrouper les informations et permettre de rechercher ce que l'on veut : adoption, don, ventes, gardiennage, associations, éleveur, parcs, etc.…",
+    Dimitri_Houssin_text6:
+      "FriendlyPet a pour but de créer une application qui regroupe tous les types d’annonce que l’on peut trouver sur internet aujourd’hui afin de ne pas se perdre dans une vague d’application web et d’annonce louche en tout genre, mais surtout pour éviter les abandons très fréquents des animaux lors de départ en vacances : sur les aires d'autoroutes, en forêt ou même dans des parcs confrontant ces animaux à la faim, la soif et aux divers accidents de la voie publique.",
   },
 };
 export default translations;
