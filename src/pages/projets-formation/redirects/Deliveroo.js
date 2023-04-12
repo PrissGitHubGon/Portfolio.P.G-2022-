@@ -26,7 +26,12 @@ const Deliveroo = () => {
           classNameLi3="list-disc"
         />
       </div>
-      <DirectionalArrow rightLink="/vinted" rightTitle="Vinted" />
+      <DirectionalArrow
+        rightLink="/vinted"
+        rightTitle="Vinted"
+        leftLink="/pokemon"
+        leftTitle="Pokemon"
+      />
     </div>
   );
 };

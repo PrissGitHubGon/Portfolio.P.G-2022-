@@ -84,6 +84,8 @@ const translations = {
     //***** traduction du fichier - Netflix ****
     Netflix_text:
       "Reproduction of the Netflix interface, with some modifications.",
+    //***** traduction du fichier - Pokemon ****
+    Pokemon_text: "Javascript / TypeScript project - 2021",
     //***** traduction du fichier - Dimitr Houssin ****
     Dimitri_Houssin_text:
       "Thanks to Dimitri Houssin, I was able to realize my very first internship as a Front End developer, for a period of six months.",
@@ -189,6 +191,8 @@ const translations = {
     //***** traduction du fichier - Netflix ****
     Netflix_text:
       "Reproduction de l'interface de Netflix, avec quelques modification.",
+    //***** traduction du fichier - Pokemon ****
+    Pokemon_text: "Projet javascript / TypeScript - 2021",
     //***** traduction du fichier - Dimitr Houssin ****
     Dimitri_Houssin_text:
       "J'ai pu Réaliser grâce à Dimitri Houssin, mon tout premier stage de développeuse Front End, pour une duré de six mois.",
