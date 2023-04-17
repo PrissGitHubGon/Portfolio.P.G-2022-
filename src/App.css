@@ -2,3 +2,8 @@
 @import "./assets/style/home.css";
 @import "./assets/style/slide.css";
 @import "./assets/style/header";
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+
+.satisfyFont {
+  font-family: "Satisfy", cursive;
+}

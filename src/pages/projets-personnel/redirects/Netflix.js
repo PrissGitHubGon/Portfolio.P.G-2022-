@@ -37,7 +37,12 @@ const Netflix = () => {
           </div>
         </div>
       </div>
-      <DirectionalArrow rightLink="/portfolio" rightTitle="Portfolio" />
+      <DirectionalArrow
+        rightLink="/portfolio"
+        rightTitle="Portfolio"
+        leftLink="/pokemonV2"
+        leftTitle="Pokemon"
+      />
     </>
   );
 };

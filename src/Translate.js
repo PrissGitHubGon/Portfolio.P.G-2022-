@@ -84,7 +84,7 @@ const translations = {
     //***** traduction du fichier - Netflix ****
     Netflix_text:
       "Reproduction of the Netflix interface, with some modifications.",
-    //***** traduction du fichier - Pokemon ****
+    //***** traduction du fichier - Pokemon-V1 ****
     Pokemon_text: "Javascript / TypeScript project - 2021",
     //***** traduction du fichier - Dimitr Houssin ****
     Dimitri_Houssin_text:
@@ -99,6 +99,16 @@ const translations = {
       "This application intervenes to group the information and to allow to search what one wants: adoption, donation, sales, guarding, associations, breeder, parks, etc....",
     Dimitri_Houssin_text6:
       "FriendlyPet aims to create an application that gathers all types of ads that can be found on the internet today in order not to get lost in a wave of web applications and shady ads of all kinds, but especially to avoid the very frequent abandonment of animals when leaving on vacation: on freeways, in the forest or even in parks confronting these animals with hunger, thirst and various accidents on the public highway.",
+    //***** traduction du fichier - Pokemon-V2 ****
+    Pokemon_v2_text:
+      "I used the Pokémon API because it is a rich and interesting data source for Pokémon fans and developers. It provides detailed information about different Pokémon, including their name, type, ability, evolution level and much more.",
+    Pokemon_v2_title: "In this project I've put:",
+    Pokemon_v2_li1:
+      "A search bar to allow users to search for specific Pokémon by entering their name",
+    Pokemon_v2_li2:
+      "A primer, it allows users to browse Pokémon according to their name.",
+    /**********Traductions globale********* */
+    ProjetEnCours: "Projects in progress ...",
   },
   /**
    * *********************************
@@ -206,6 +216,16 @@ const translations = {
       "Cette application intervient pour regrouper les informations et permettre de rechercher ce que l'on veut : adoption, don, ventes, gardiennage, associations, éleveur, parcs, etc.…",
     Dimitri_Houssin_text6:
       "FriendlyPet a pour but de créer une application qui regroupe tous les types d’annonce que l’on peut trouver sur internet aujourd’hui afin de ne pas se perdre dans une vague d’application web et d’annonce louche en tout genre, mais surtout pour éviter les abandons très fréquents des animaux lors de départ en vacances : sur les aires d'autoroutes, en forêt ou même dans des parcs confrontant ces animaux à la faim, la soif et aux divers accidents de la voie publique.",
+    //***** traduction du fichier - Pokemon-V2 ****
+    Pokemon_v2_text:
+      "J'ai utiliser l'API Pokémon car c'est une source de données riche et intéressante pour les fans de Pokémon et les développeurs. Elle fournit des informations détaillées sur les différents Pokémon, y compris leur nom, leur type, leur capacité, leur niveau d'évolution et bien plus encore.",
+    Pokemon_v2_title: "Dans ce projet j'ai mis:",
+    Pokemon_v2_li1:
+      " Une barre de recherche afin de permettre aux utilisateurs de rechercher des Pokémons spécifiques en saisissant leur nom",
+    Pokemon_v2_li2:
+      "Un abécédaire,il permet aux utilisateurs de parcourir les Pokémons en fonction de leur nom.",
+    /**********Traductions globale********* */
+    ProjetEnCours: "Projets en cours ...",
   },
 };
 export default translations;

@@ -17,7 +17,7 @@
     },
     {
       "link": "/pokemon",
-      "title": "Pokemon_V1",
+      "title": "Pokemon",
       "imageUrl": "https://res.cloudinary.com/dl6flp50k/image/upload/v1681317567/pokemon/pokemon-g9396b9ebd_1920_xijbco.jpg"
     }
   ],
@@ -31,6 +31,11 @@
       "link": "/netflix",
       "title": "Netflix",
       "imageUrl": "https://res.cloudinary.com/dl6flp50k/image/upload/v1678288070/netflix/1467275516_soxwp6.jpg"
+    },
+    {
+      "link": "/pokemonV2",
+      "title": "Pokemon",
+      "imageUrl": "https://res.cloudinary.com/dl6flp50k/image/upload/v1681725226/pokemon/like-g6febe1c4c_640_yrb3vb.jpg"
     }
   ],
   "professionnel": [

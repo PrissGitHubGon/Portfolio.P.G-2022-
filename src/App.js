@@ -32,6 +32,7 @@ import Wever from "./pages/projets-professionnel/redirects/wever";
 import Netflix from "./pages/projets-personnel/redirects/Netflix";
 import DimitriHoussin from "./pages/projets-professionnel/redirects/dimitri_houssin";
 import PokemonV1 from "./pages/projets-formation/redirects/Pokemon_v1";
+import PokemonV2 from "./pages/projets-personnel/redirects/Pokemon_V2";
 
 const App = () => {
   // LocalStorage
@@ -80,6 +81,7 @@ const App = () => {
         <Route path="/projets-personnel" element={<ProjetsPerso />} />
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/netflix" element={<Netflix />} />
+        <Route path="/pokemonV2" element={<PokemonV2 />} />
         {/* professionnel */}
         <Route path="/experience-professionnel" element={<ProjetsPro />} />
         <Route path="/wever" element={<Wever />} />
