@@ -32,6 +32,7 @@ const PokemonV2 = () => {
                 <li className="list-disc">
                   <Translate id="Pokemon_v2_li2" />
                 </li>
+                <br />
                 <li className="list-disc">
                   <Translate id="Pokemon_v2_li3" />
                 </li>
