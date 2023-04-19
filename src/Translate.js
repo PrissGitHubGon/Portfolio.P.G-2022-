@@ -104,9 +104,11 @@ const translations = {
       "I used the Pokémon API because it is a rich and interesting data source for Pokémon fans and developers. It provides detailed information about different Pokémon, including their name, type, ability, evolution level and much more.",
     Pokemon_v2_title: "In this project I've put:",
     Pokemon_v2_li1:
-      "A search bar to allow users to search for specific Pokémon by entering their name",
+      "A search bar to allow users to search for specific Pokémon by entering their name or type",
     Pokemon_v2_li2:
       "A primer, it allows users to browse Pokémon according to their name.",
+    Pokemon_v2_li3:
+      "A color theme that allows Pokémon cards to change color depending on their type (rock, water, fire, etc.).",
     /**********Traductions globale********* */
     ProjetEnCours: "Projects in progress ...",
   },
@@ -221,9 +223,11 @@ const translations = {
       "J'ai utiliser l'API Pokémon car c'est une source de données riche et intéressante pour les fans de Pokémon et les développeurs. Elle fournit des informations détaillées sur les différents Pokémon, y compris leur nom, leur type, leur capacité, leur niveau d'évolution et bien plus encore.",
     Pokemon_v2_title: "Dans ce projet j'ai mis:",
     Pokemon_v2_li1:
-      " Une barre de recherche afin de permettre aux utilisateurs de rechercher des Pokémons spécifiques en saisissant leur nom",
+      " Une barre de recherche pour permettre aux utilisateurs de chercher des Pokémons en particulier en saisissant leur nom ou leur type",
     Pokemon_v2_li2:
       "Un abécédaire,il permet aux utilisateurs de parcourir les Pokémons en fonction de leur nom.",
+    Pokemon_v2_li3:
+      "Un thème de couleurs qui permet aux cartes Pokémon de changer de couleur en fonction de leur type (roche, eau, feu, etc.).",
     /**********Traductions globale********* */
     ProjetEnCours: "Projets en cours ...",
   },

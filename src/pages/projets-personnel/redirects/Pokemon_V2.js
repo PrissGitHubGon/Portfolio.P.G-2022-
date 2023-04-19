@@ -32,6 +32,9 @@ const PokemonV2 = () => {
                 <li className="list-disc">
                   <Translate id="Pokemon_v2_li2" />
                 </li>
+                <li className="list-disc">
+                  <Translate id="Pokemon_v2_li3" />
+                </li>
               </ol>
               <p className="text-gray-900 text-lg font-medium mb-2">
                 <Translate id="ProjetEnCours" />

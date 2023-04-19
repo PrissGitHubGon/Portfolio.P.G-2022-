@@ -32,7 +32,7 @@ const Footer = () => {
 
       <div className="text-center text-white-700 py-5">
         © {getCurrentYear()} Made by :
-        <Link to="text-white-800" href="">
+        <Link to="text-white-800">
           <span> </span> Priscillia Gonçalves
         </Link>
       </div>
