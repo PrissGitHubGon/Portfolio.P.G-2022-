@@ -63,7 +63,7 @@ const PokemonV2 = () => {
                   >
                     <i className="fa-brands fa-internet-explorer ml-3 md:ml-1 text-amber-500"></i>
                     <p className="text-center text-sm text-amber-500">
-                      En cours
+                      <Translate id="siteWeb2" />
                     </p>
                   </a>
                 </div>
