@@ -37,9 +37,9 @@ const PokemonV2 = () => {
                   <Translate id="Pokemon_v2_li3" />
                 </li>
               </ol>
-              <p className="text-gray-900 text-lg font-medium mb-2">
+              {/* <p className="text-gray-900 text-lg font-medium mb-2">
                 <Translate id="ProjetEnCours" />
-              </p>
+              </p> */}
 
               <div className=" pb-5 border-b-2"></div>
               <div className="flex flex-row justify-center space-x-14 pt-3">
